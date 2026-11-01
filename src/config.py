@@ -84,3 +84,17 @@ RATE_LIMIT_WINDOW_SECONDS = 60.0
 # ---------------------------------------------------------------------------
 MLFLOW_TRACKING_URI = str(MLRUNS_DIR)
 MLFLOW_EXPERIMENT = "explainable-credit-risk-scoring"
+
+# ---------------------------------------------------------------------------
+# SHAP Explainability
+# ---------------------------------------------------------------------------
+SHAP_BACKGROUND_SAMPLE_SIZE = 200  # rows for TreeExplainer background (latency vs quality trade-off)
+SHAP_MAX_CONTRIBUTORS = 5          # cap per-applicant explanations
+
+# ---------------------------------------------------------------------------
+# Drift Monitoring
+# ---------------------------------------------------------------------------
+DRIFT_PSI_STABLE = 0.10
+DRIFT_PSI_WARN = 0.25
+DRIFT_KS_STABLE = 0.10
+DRIFT_KS_WARN = 0.20

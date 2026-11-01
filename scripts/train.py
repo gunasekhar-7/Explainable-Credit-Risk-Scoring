@@ -15,17 +15,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
 from sklearn.model_selection import train_test_split
 
 from src.config import (
     PROCESSED_DIR,
     RANDOM_SEED,
     RESULTS_DIR,
+    SHAP_BACKGROUND_SAMPLE_SIZE,
     TEST_SIZE,
     VAL_SIZE,
 )
@@ -41,6 +37,7 @@ from src.evaluation.metrics import evaluate
 from src.mlflow_tracking import RunLogger, init_tracking
 from src.models.scorecard import Scorecard
 from src.models.xgboost import XGBoostModel
+from src.monitoring.drift import DriftMonitor
 
 logging.basicConfig(
     level=logging.INFO,
@@ -81,7 +78,7 @@ def train_and_evaluate(csv_path: str | None = None) -> dict:
     )
 
     # ---- persist background sample for SHAP precompute ----
-    bg = X_train.sample(n=min(50, len(X_train)), random_state=RANDOM_SEED)
+    bg = X_train.sample(n=min(SHAP_BACKGROUND_SAMPLE_SIZE, len(X_train)), random_state=RANDOM_SEED)
     bg.to_csv(PROCESSED_DIR / "background_sample.csv", index=False)
 
     # ---- feature selection for scorecard (handled inside scorecard.fit) ----
@@ -179,6 +176,30 @@ def train_and_evaluate(csv_path: str | None = None) -> dict:
     CHAMPION_MANIFEST.parent.mkdir(parents=True, exist_ok=True)
     with open(CHAMPION_MANIFEST, "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, indent=2)
+
+    # ---- Drift monitoring reference ----
+    # Select features that the champion model actually uses for drift monitoring
+    if champion == "scorecard":
+        drift_features = list(scorecard.features)
+        # Get reference scores from champion on training data
+        if hasattr(scorecard, 'model') and scorecard.model is not None:
+            X_train_woe_full = apply_woe_maps(X_train, woe_maps)
+            ref_scores = scorecard.predict_proba(X_train_woe_full)
+        else:
+            ref_scores = None
+    else:
+        drift_features = list(xgb.features)
+        # Get reference scores from XGBoost on training data
+        X_train_enc = xgb._encode_object_cols(X_train[xgb.features].copy(), fit=False)
+        ref_scores = xgb.predict_proba(X_train_enc)
+
+    drift_monitor = DriftMonitor(
+        reference_data=X_train[drift_features] if drift_features else None,
+        features=drift_features,
+        reference_scores=ref_scores,
+    )
+    drift_monitor.save(PROCESSED_DIR / "drift_reference.json")
+    log.info(f"[Drift] saved reference to {PROCESSED_DIR / 'drift_reference.json'}")
 
     # ---- MLflow logging ----
     init_tracking()

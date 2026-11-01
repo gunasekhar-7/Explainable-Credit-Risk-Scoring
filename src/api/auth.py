@@ -13,9 +13,12 @@ Configuration is by environment variable:
     invisible default. Open mode is only safe because the default bind address
     is loopback; set ``API_KEYS`` before exposing the service elsewhere.
 
+``RATE_LIMITER_BACKEND``
+    ``memory`` (default) or ``redis``. When ``redis``, requires ``REDIS_URL``.
+
 Rate limiting is always on, keyed by API key when authenticated and by client
-address otherwise. Budgets are per process: with ``--workers N`` each worker
-enforces its own, so a multi-worker deployment needs a shared limiter.
+address otherwise. Budgets are per process with ``memory`` backend; with
+``redis`` they are shared across workers.
 """
 from __future__ import annotations
 
@@ -25,7 +28,12 @@ import logging
 import os
 import threading
 import time
+from abc import ABC, abstractmethod
 from dataclasses import dataclass
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    import redis
 
 from fastapi import Depends, HTTPException, Request
 from fastapi.security import APIKeyHeader
@@ -78,12 +86,22 @@ class _Window:
     used: int
 
 
-class RateLimiter:
-    """Fixed-window counter per identity.
+class BaseRateLimiter(ABC):
+    """Abstract rate limiter interface."""
 
-    Bounded on purpose: expired windows are swept when the identity table fills,
-    so a client cycling identities cannot grow it without limit.
-    """
+    @abstractmethod
+    def check(self, identity: str, cost: int = 1) -> float | None:
+        """Consume `cost` units. Returns None when allowed, else seconds to wait."""
+        ...
+
+    @abstractmethod
+    def reset(self) -> None:
+        """Drop all counters (used by tests)."""
+        ...
+
+
+class MemoryRateLimiter(BaseRateLimiter):
+    """Fixed-window counter per identity (in-memory, per-process)."""
 
     def __init__(
         self,
@@ -98,7 +116,6 @@ class RateLimiter:
         self._lock = threading.Lock()
 
     def check(self, identity: str, cost: int = 1) -> float | None:
-        """Consume `cost` units. Returns None when allowed, else seconds to wait."""
         now = time.monotonic()
         with self._lock:
             window = self._windows.get(identity)
@@ -120,13 +137,90 @@ class RateLimiter:
             self._windows.pop(key, None)
 
     def reset(self) -> None:
-        """Drop all counters (used by tests)."""
         with self._lock:
             self._windows.clear()
 
 
-request_limiter = RateLimiter(RATE_LIMIT_REQUESTS_PER_MINUTE)
-row_limiter = RateLimiter(RATE_LIMIT_ROWS_PER_MINUTE)
+class RedisRateLimiter(BaseRateLimiter):
+    """Fixed-window counter per identity backed by Redis (shared across workers)."""
+
+    def __init__(
+        self,
+        limit: int,
+        window_seconds: float = RATE_LIMIT_WINDOW_SECONDS,
+        redis_url: str | None = None,
+        key_prefix: str = "ratelimit:",
+    ) -> None:
+        self.limit = limit
+        self.window_seconds = window_seconds
+        self.key_prefix = key_prefix
+        self._redis_url = redis_url or os.environ.get("REDIS_URL", "redis://localhost:6379/0")
+        self._client: redis.Redis | None = None
+
+    def _get_client(self) -> redis.Redis:
+        if self._client is None:
+            import redis
+            self._client = redis.from_url(self._redis_url, decode_responses=True)
+        return self._client
+
+    def check(self, identity: str, cost: int = 1) -> float | None:
+        import time as _time
+        client = self._get_client()
+        now = _time.time()
+        window_start = int(now // self.window_seconds) * self.window_seconds
+        key = f"{self.key_prefix}{identity}:{int(window_start)}"
+
+        # Use Lua script for atomic check-and-increment
+        lua_script = """
+        local current = redis.call('GET', KEYS[1])
+        if current == false then
+            current = 0
+        else
+            current = tonumber(current)
+        end
+        if current + tonumber(ARGV[1]) > tonumber(ARGV[2]) then
+            return -1
+        end
+        local new_val = redis.call('INCRBY', KEYS[1], ARGV[1])
+        if new_val == tonumber(ARGV[1]) then
+            redis.call('EXPIRE', KEYS[1], ARGV[3])
+        end
+        return 0
+        """
+        try:
+            script = client.register_script(lua_script)
+            result = script(keys=[key], args=[cost, self.limit, int(self.window_seconds) + 1])
+        except Exception as exc:
+            logger.warning(f"Redis rate limiter error, failing open: {exc}")
+            return None  # Fail open on Redis errors
+        else:
+            if result == -1:
+                ttl = client.ttl(key)
+                return max(0.0, float(ttl if ttl > 0 else self.window_seconds))
+            return None
+
+    def reset(self) -> None:
+        # Not typically used with Redis; would require SCAN + DEL
+        pass
+
+
+def _create_limiter(limit: int) -> BaseRateLimiter:
+    """Factory for rate limiter based on RATE_LIMITER_BACKEND env var."""
+    backend = os.environ.get("RATE_LIMITER_BACKEND", "memory").lower()
+    if backend == "redis":
+        try:
+            return RedisRateLimiter(limit)
+        except ImportError:
+            logger.warning("redis-py not installed, falling back to memory rate limiter")
+            return MemoryRateLimiter(limit)
+    return MemoryRateLimiter(limit)
+
+
+# Backward compatibility alias for tests and existing code
+RateLimiter = MemoryRateLimiter
+
+request_limiter = _create_limiter(RATE_LIMIT_REQUESTS_PER_MINUTE)
+row_limiter = _create_limiter(RATE_LIMIT_ROWS_PER_MINUTE)
 
 
 def identity_for(request: Request, api_key: str | None) -> tuple[str, bool]:

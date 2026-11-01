@@ -437,6 +437,111 @@ def test_derived_features_are_computed_at_inference() -> None:
     )
 
 
+def test_drift_psi_ks() -> None:
+    """PSI and KS drift metrics compute correctly on known distributions."""
+    import numpy as np
+
+    from src.monitoring.drift import ks_drift, psi
+
+    # Identical distributions -> PSI ~ 0, KS = 0
+    np.random.seed(42)
+    ref = np.random.normal(0, 1, 1000)
+    cur = np.random.normal(0, 1, 1000)
+    assert psi(ref, cur) < 0.05
+    assert ks_drift(ref, cur) < 0.05
+
+    # Shifted distribution -> PSI > 0.1, KS > 0.1
+    cur_shifted = np.random.normal(1, 1, 1000)
+    assert psi(ref, cur_shifted) > 0.1
+    assert ks_drift(ref, cur_shifted) > 0.1
+
+
+def test_drift_monitor_save_load() -> None:
+    """DriftMonitor saves and loads reference data correctly."""
+    import tempfile
+
+    import numpy as np
+    import pandas as pd
+
+    from src.monitoring.drift import DriftMonitor
+
+    np.random.seed(42)
+    ref_data = pd.DataFrame({
+        "feature1": np.random.normal(0, 1, 100),
+        "feature2": np.random.normal(5, 2, 100),
+    })
+    ref_scores = np.random.uniform(0, 1, 100)
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        path = Path(tmpdir) / "drift_ref.json"
+        monitor = DriftMonitor(
+            reference_data=ref_data,
+            features=["feature1", "feature2"],
+            reference_scores=ref_scores,
+        )
+        monitor.save(path)
+
+        loaded = DriftMonitor.load(path)
+        assert loaded.features == ["feature1", "feature2"]
+        assert loaded.reference_data is not None
+        assert len(loaded.reference_data) == 100
+        assert loaded.reference_scores is not None
+        assert len(loaded.reference_scores) == 100
+
+
+def test_drift_monitor_check() -> None:
+    """DriftMonitor.check computes drift report correctly."""
+    import tempfile
+
+    import numpy as np
+    import pandas as pd
+
+    from src.monitoring.drift import DriftMonitor
+
+    np.random.seed(42)
+    # Generate larger reference sample for more stable statistics
+    ref_feature1 = np.random.normal(0, 1, 1000)
+    ref_data = pd.DataFrame({"feature1": ref_feature1})
+    ref_scores = np.random.uniform(0, 1, 1000)
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        path = Path(tmpdir) / "drift_ref.json"
+        monitor = DriftMonitor(
+            reference_data=ref_data,
+            features=["feature1"],
+            reference_scores=ref_scores,
+        )
+        monitor.save(path)
+
+        # Test with identical data (should be stable - PSI=0, KS=0)
+        report = monitor.check(ref_data.copy(), ref_scores.copy())
+        assert report["overall_status"] == "stable"
+        assert "feature_drift" in report
+        assert "score_drift" in report
+        assert report["feature_drift"]["feature1"]["status"] == "stable"
+        assert report["score_drift"]["status"] == "stable"
+
+        # Test with similar but different sample from same distribution (may be stable or warning)
+        np.random.seed(123)
+        current_data = pd.DataFrame({
+            "feature1": np.random.normal(0, 1, 1000),
+        })
+        current_scores = np.random.uniform(0, 1, 1000)
+        report2 = monitor.check(current_data, current_scores)
+        assert report2["overall_status"] in ("stable", "warning")
+        assert "feature_drift" in report2
+        assert "score_drift" in report2
+
+        # Test with shifted distribution (should be alert)
+        np.random.seed(456)
+        current_data_shifted = pd.DataFrame({
+            "feature1": np.random.normal(3, 1, 1000),
+        })
+        report_shifted = monitor.check(current_data_shifted, current_scores)
+        assert report_shifted["overall_status"] == "alert"
+        assert report_shifted["feature_drift"]["feature1"]["status"] == "alert"
+
+
 def test_api_key_auth_and_rate_limit() -> None:
     """Open mode allows; a configured key is required; budgets reject excess."""
     import os
@@ -553,6 +658,9 @@ if __name__ == "__main__":
         test_batch_scoring_matches_single_prediction,
         test_derived_features_are_computed_at_inference,
         test_api_key_auth_and_rate_limit,
+        test_drift_psi_ks,
+        test_drift_monitor_save_load,
+        test_drift_monitor_check,
     ]
     passed = 0
     failed: list[str] = []

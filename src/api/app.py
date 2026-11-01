@@ -1,4 +1,4 @@
-"""FastAPI application: /, /health, /ready, /predict, /predict/batch, /model-info."""
+"""FastAPI application: /, /health, /ready, /predict, /predict/batch, /model-info, /drift."""
 from __future__ import annotations
 
 import json
@@ -294,3 +294,97 @@ def model_info(identity: str = Depends(require_api_key)) -> ModelInfo:
         ignored_fields=ignored,
         auth_mode=auth_mode(),
     )
+
+
+@app.get(
+    "/drift",
+    summary="Data drift report",
+    description=(
+        "Returns Population Stability Index (PSI) and KS drift for model features "
+        "and scores, comparing current traffic against the training reference distribution. "
+        "Requires drift reference artifacts (run `scripts/train.py` to generate). "
+        "Response includes per-feature status (stable/warning/alert) and overall status."
+    ),
+)
+def drift_report(identity: str = Depends(require_api_key)) -> dict:
+    enforce_budget(identity, rows=0)
+    try:
+        get_engine()
+    except RuntimeError as exc:
+        logger.exception("Drift report unavailable")
+        raise HTTPException(status_code=503, detail="model unavailable") from exc
+
+    # Check if drift reference exists
+    from src.config import PROCESSED_DIR
+    from src.monitoring.drift import DriftMonitor
+
+    drift_path = PROCESSED_DIR / "drift_reference.json"
+    if not drift_path.exists():
+        raise HTTPException(
+            status_code=503,
+            detail="Drift reference not found. Run training pipeline to generate drift_reference.json",
+        )
+
+    try:
+        monitor = DriftMonitor.load(drift_path)
+    except Exception as exc:
+        logger.exception("Failed to load drift monitor")
+        raise HTTPException(status_code=500, detail="drift monitor load failed") from exc
+
+    return {
+        "message": "Drift monitoring endpoint active. Use POST /drift/check with a batch to compute drift.",
+        "reference_features": monitor.features,
+        "reference_data_shape": (
+            len(monitor.reference_data) if monitor.reference_data is not None else 0
+        ),
+        "has_reference_scores": monitor.reference_scores is not None,
+    }
+
+
+@app.post(
+    "/drift/check",
+    summary="Check drift on provided batch",
+    description=(
+        "Accepts a batch of applicant records and computes drift "
+        "against the stored reference distribution, returning the drift report."
+    ),
+)
+def drift_check(
+    request: Request,
+    applications: list[CreditApplication],
+    identity: str = Depends(require_api_key),
+) -> dict:
+    enforce_budget(identity, rows=0)
+    try:
+        engine = get_engine()
+    except RuntimeError as exc:
+        logger.exception("Drift check unavailable")
+        raise HTTPException(status_code=503, detail="model unavailable") from exc
+
+    import numpy as np
+    import pandas as pd
+
+    from src.config import PROCESSED_DIR
+    from src.data.features import add_domain_features
+    from src.monitoring.drift import DriftMonitor
+
+    drift_path = PROCESSED_DIR / "drift_reference.json"
+    if not drift_path.exists():
+        raise HTTPException(
+            status_code=503,
+            detail="Drift reference not found. Run training pipeline to generate drift_reference.json",
+        )
+
+    monitor = DriftMonitor.load(drift_path)
+
+    X_current = pd.DataFrame([app.model_dump() for app in applications])
+    if X_current.empty:
+        raise HTTPException(status_code=400, detail="Empty batch provided")
+
+    X_current = add_domain_features(X_current)
+
+    results = engine.predict_many([app.model_dump() for app in applications])
+    current_scores = np.array([r["default_probability"] for r in results])
+
+    report = monitor.check(X_current, current_scores)
+    return report

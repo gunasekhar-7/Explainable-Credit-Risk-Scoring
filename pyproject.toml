@@ -19,6 +19,7 @@ dependencies = [
     "pydantic==2.13.5",
     "matplotlib==3.11.2",
     "jupyter==1.1.1",
+    "redis==5.2.1",
 ]
 
 [tool.ruff]
@@ -27,7 +28,7 @@ target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "C4", "UP", "PLC", "SIM", "TRY", "RUF"]
-ignore = ["E501", "B008", "PLC0415"]
+ignore = ["E501", "B008", "PLC0415", "TRY003"]
 fixable = ["I"]
 
 [tool.ruff.lint.isort]

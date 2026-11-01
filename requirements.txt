@@ -9,3 +9,4 @@ uvicorn==0.54.0
 pydantic==2.13.5
 matplotlib==3.11.2
 jupyter==1.1.1
+redis==5.2.1
