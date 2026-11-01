@@ -1,0 +1,601 @@
+SK_ID_CURR,TARGET,NAME_CONTRACT_TYPE,CODE_GENDER,FLAG_OWN_CAR,FLAG_OWN_REALTY,CNT_CHILDREN,AMT_INCOME_TOTAL,AMT_CREDIT,AMT_ANNUITY,DAYS_BIRTH,DAYS_EMPLOYED,NAME_INCOME_TYPE,NAME_EDUCATION_TYPE,NAME_FAMILY_STATUS,NAME_HOUSING_TYPE,OCCUPATION_TYPE,CNT_FAM_MEMBERS,EXT_SOURCE_1,EXT_SOURCE_2,EXT_SOURCE_3
+100101,1,Revolving loans,M,0,1,0,205450.13,263230.43,17589.99,-14935,-1922,Working,Secondary / special,Widow,House / apartment,High skill tech staff,1,0.2,0.57,0.25
+100102,1,Revolving loans,M,1,1,3,158786.28,414915.08,29191.94,-13527,2971,Pensioner,Lower secondary,Married / civil union,With parents,Private service staff,4,0.34,0.65,0.34
+100103,0,Revolving loans,F,1,0,0,185398.49,734795.71,45557.33,-9598,1904,Pensioner,Academic degree,Married / civil union,House / apartment,Secretaries,1,0.61,0.51,0.63
+100104,0,Revolving loans,M,0,1,3,208507.21,562148.2,39127.75,-12916,-1848,Pensioner,Secondary / special,Separated,Municipal apartment,Sales staff,6,0.22,0.81,0.65
+100105,0,Revolving loans,M,0,0,0,50000,166185.59,6975.24,-9946,2757,Working,Lower secondary,Married / civil union,With parents,Low skill laborers,1,0.89,0.54,0.65
+100106,0,Revolving loans,F,0,0,2,304262.73,227733.29,14018.16,-9750,-3522,Working,Academic degree,Separated,House / apartment,Drivers,3,0.63,0.67,0.82
+100107,0,Revolving loans,F,1,1,4,112522.96,128524.64,6828.69,-7235,2056,State servant,Academic degree,Single / not married,With parents,Security staff,5,0.21,0.9,0.81
+100108,1,Revolving loans,M,1,1,0,141304.42,100000,6678.69,-6998,-4532,Pensioner,Lower secondary,Widow,Rented apartment,HR staff,3,0.6,0.59,0.38
+100109,1,Cash loans,F,1,0,1,247363.83,611106.84,21388.17,-14808,-2828,Unemployed,Higher education,Separated,Municipal apartment,Security staff,3,0.62,0.48,0.55
+100110,1,Revolving loans,F,0,1,0,155705.29,538952.54,18655.8,-12939,-4639,Pensioner,Higher education,Married / civil union,Rented apartment,HR staff,2,0.57,0.21,0.32
+100111,1,Revolving loans,M,0,0,1,283372.64,885021.38,67516.68,-9878,2997,Pensioner,Academic degree,Separated,Rented apartment,Secretaries,3,0.2,0.48,0.77
+100112,0,Cash loans,F,1,0,4,50000,160332.16,7624.97,-14346,1911,Unemployed,Lower secondary,Married / civil union,Rented apartment,Private service staff,6,0.38,0.76,0.98
+100113,0,Revolving loans,M,0,1,1,90414.07,138766.9,5046.17,-12888,-1895,Pensioner,Higher education,Single / not married,House / apartment,Sales staff,4,0.74,0.65,0.51
+100114,0,Cash loans,M,1,0,4,188663.85,408075.61,29580.13,-7193,2259,Commercial associate,Lower secondary,Widow,Municipal apartment,Secretaries,5,0.73,0.47,0.56
+100115,1,Revolving loans,F,0,0,4,111140.18,390683.54,20512.25,-10050,-2729,Commercial associate,Academic degree,Married / civil union,Municipal apartment,Cleaning staff,6,0.6,0.21,0.16
+100116,0,Revolving loans,M,0,1,4,163738.93,283457.6,19182.64,-12865,1018,Commercial associate,Lower secondary,Single / not married,Municipal apartment,High skill tech staff,7,0.7,0.6,0.78
+100117,0,Cash loans,M,1,0,4,191120.94,731843.08,37381.26,-7341,1136,State servant,Secondary / special,Separated,Municipal apartment,Cooking staff,5,0.56,0.36,0.79
+100118,0,Revolving loans,F,1,1,2,111209.45,132801.23,7915.6,-9978,-486,State servant,Lower secondary,Separated,With parents,Secretaries,5,0.41,0.3,0.54
+100119,1,Revolving loans,F,1,0,2,136147.06,425686.53,24899.46,-12209,-951,Working,Lower secondary,Single / not married,Municipal apartment,IT staff,3,0.39,0.34,0.19
+100120,0,Revolving loans,M,0,1,4,225373.73,636423.88,30835.39,-14698,1110,Pensioner,Lower secondary,Single / not married,Rented apartment,Sales staff,6,0.65,0.57,0.56
+100121,0,Revolving loans,M,0,0,3,164957.33,113959.3,5083.36,-8068,1166,State servant,Academic degree,Single / not married,Municipal apartment,Cleaning staff,4,0.64,0.17,0.39
+100122,1,Revolving loans,M,0,1,0,165257.86,254618.73,15131.04,-13025,87,State servant,Higher education,Widow,House / apartment,Private service staff,3,0.56,0.32,0.7
+100123,1,Cash loans,F,0,0,4,182613.89,182217.07,6009.87,-11039,1752,Commercial associate,Academic degree,Separated,With parents,Low skill laborers,6,0.69,0.56,0.74
+100124,1,Revolving loans,F,0,0,2,194294.94,650860.33,51061.79,-13700,-2270,State servant,Lower secondary,Widow,Municipal apartment,HR staff,5,0.36,0.8,0.19
+100125,0,Revolving loans,M,1,0,4,146032.01,220231.17,16306.43,-13941,-1070,Commercial associate,Higher education,Single / not married,House / apartment,Security staff,5,0.97,0.82,0.63
+100126,1,Revolving loans,M,1,1,2,186884.19,652308.67,30654.44,-14318,-4979,Commercial associate,Academic degree,Single / not married,Municipal apartment,Sales staff,5,0.44,0.3,0.24
+100127,1,Revolving loans,M,0,1,0,211396.01,179956.37,13002.2,-7633,-1257,Working,Secondary / special,Widow,With parents,IT staff,3,0.35,0.89,0.7
+100128,0,Cash loans,F,1,0,3,136419.51,100000,4621.87,-6919,-1930,Working,Academic degree,Separated,Rented apartment,Medicine staff,4,0.4,0.5,0.71
+100129,1,Cash loans,F,0,0,4,121671.21,189493.88,15153.58,-13916,-2088,Working,Lower secondary,Widow,House / apartment,Low skill laborers,6,0.41,0.36,0.26
+100130,0,Cash loans,F,1,0,1,78035.79,100000,7548.14,-11352,-3562,Commercial associate,Secondary / special,Separated,House / apartment,Cleaning staff,2,0.73,0.23,0.73
+100131,0,Revolving loans,F,0,1,3,149661.02,274416.83,16993.94,-12086,-2693,Working,Academic degree,Widow,Rented apartment,Sales staff,4,0.67,0.63,0.73
+100132,1,Cash loans,M,1,0,2,95416.29,120266.89,6282.12,-9868,-4187,Pensioner,Lower secondary,Single / not married,House / apartment,Medicine staff,5,0.25,0.24,0.56
+100133,1,Cash loans,M,1,1,1,194584.62,634250.6,37701.53,-6258,-4571,Commercial associate,Secondary / special,Widow,Municipal apartment,Accountants,4,0.53,0.29,0.23
+100134,1,Revolving loans,F,1,0,4,198568.99,323149.46,12091.18,-8067,186,Unemployed,Academic degree,Separated,Rented apartment,High skill tech staff,7,0.41,0.28,0.38
+100135,1,Revolving loans,M,0,1,2,119310.35,100000,3426.82,-13075,-624,State servant,Lower secondary,Married / civil union,Rented apartment,Low skill laborers,3,0.31,0.11,0.61
+100136,1,Revolving loans,F,1,0,2,76793.53,153732.46,8923.91,-6430,388,Unemployed,Lower secondary,Separated,House / apartment,Sales staff,3,0.58,0.18,0.81
+100137,0,Cash loans,F,1,1,3,150623.28,118319.91,6171.05,-12947,-1379,Working,Secondary / special,Widow,Municipal apartment,Managers,5,0.62,0.69,0.83
+100138,0,Revolving loans,M,1,0,0,127642.99,301752.9,12524.42,-11802,-121,Pensioner,Academic degree,Widow,House / apartment,Cooking staff,2,0.16,0.72,0.2
+100139,0,Revolving loans,F,1,0,2,148694.2,479823.16,16227.12,-7868,-3412,Commercial associate,Secondary / special,Widow,Municipal apartment,Medicine staff,4,0.34,0.15,0.32
+100140,0,Revolving loans,M,0,1,3,100472.35,146826.06,4817.16,-14312,-1759,Working,Lower secondary,Married / civil union,With parents,Sales staff,4,0.61,0.73,0.44
+100141,1,Cash loans,F,1,1,3,80372.81,187237.97,7103.3,-12108,-1827,Pensioner,Secondary / special,Separated,Municipal apartment,Medicine staff,5,0.61,0.6,0.71
+100142,1,Revolving loans,M,1,0,3,178708.24,597983.99,37975.46,-14624,-904,Pensioner,Higher education,Single / not married,Municipal apartment,Sales staff,6,0.44,0.45,0.1
+100143,0,Cash loans,F,0,0,2,126989.75,260925.27,11545.0,-13355,-3041,Unemployed,Academic degree,Single / not married,Municipal apartment,Accountants,4,0.63,0.69,0.41
+100144,1,Cash loans,M,1,0,0,103867.43,132652.53,6971.74,-11727,-1602,Pensioner,Academic degree,Married / civil union,Rented apartment,Drivers,2,0.6,0.6,0.34
+100145,0,Cash loans,F,1,0,4,219780.89,720583.93,38086.95,-7816,-906,Commercial associate,Lower secondary,Separated,House / apartment,High skill tech staff,7,0.34,0.68,0.63
+100146,0,Revolving loans,F,1,0,2,171587.18,292866.5,19518.69,-7698,1022,Pensioner,Lower secondary,Separated,House / apartment,Secretaries,3,0.08,0.37,0.39
+100147,0,Revolving loans,M,1,1,2,131763.39,267391.38,13369.86,-13204,-1833,Commercial associate,Secondary / special,Separated,Municipal apartment,Security staff,3,0.31,0.13,0.3
+100148,0,Revolving loans,F,1,1,1,274127.95,896445.67,29464.29,-12655,1562,Pensioner,Secondary / special,Married / civil union,With parents,Cleaning staff,2,0.49,0.36,0.57
+100149,0,Cash loans,M,1,0,3,179996.56,578216.58,37700.81,-9515,-2661,Working,Higher education,Single / not married,With parents,HR staff,4,0.32,0.39,0.68
+100150,0,Cash loans,M,1,0,1,131887.28,232535.45,13629.8,-13657,-481,Working,Higher education,Separated,With parents,Managers,4,0.47,0.66,0.26
+100151,0,Cash loans,M,0,1,4,133694.26,507124.28,37905.66,-7292,202,Pensioner,Academic degree,Married / civil union,Municipal apartment,Medicine staff,6,0.38,0.62,0.48
+100152,0,Cash loans,F,0,1,3,87581.91,240559.08,10850.35,-10012,611,Working,Lower secondary,Widow,With parents,Managers,5,0.63,0.64,0.47
+100153,1,Revolving loans,F,1,0,4,132770.3,352348.62,14944.34,-8616,2649,Working,Academic degree,Single / not married,Rented apartment,IT staff,7,0.61,0.94,0.8
+100154,0,Revolving loans,M,0,0,2,216736.07,414266.99,13365.13,-6838,-3406,Pensioner,Lower secondary,Widow,Municipal apartment,Managers,5,0.49,0.65,0.41
+100155,1,Cash loans,M,1,0,4,87886.24,232524.01,8865.0,-10902,-845,State servant,Academic degree,Single / not married,With parents,Sales staff,7,0.46,0.41,0.64
+100156,0,Revolving loans,F,1,1,3,143929.32,424853.92,16798.39,-13225,-3760,State servant,Academic degree,Single / not married,With parents,Security staff,6,0.29,0.56,0.5
+100157,1,Cash loans,F,1,1,2,179573.33,276839.4,12305.57,-9396,-995,Commercial associate,Higher education,Single / not married,Rented apartment,Private service staff,4,0.29,0.32,0.49
+100158,0,Revolving loans,F,0,0,4,335714.39,329152.96,20007.18,-9920,487,State servant,Higher education,Married / civil union,With parents,Cooking staff,5,0.51,0.65,0.71
+100159,1,Revolving loans,M,0,1,2,220666.13,880480.2,43891.7,-14116,1135,Unemployed,Higher education,Single / not married,Municipal apartment,Secretaries,3,0.09,0.23,0.49
+100160,0,Revolving loans,M,1,1,3,290405.86,478514.31,23945.65,-7562,-3849,State servant,Higher education,Single / not married,With parents,Cleaning staff,5,0.59,0.67,0.43
+100161,0,Cash loans,F,0,1,1,148640.77,290661.03,16701.88,-13714,1569,Working,Academic degree,Single / not married,Municipal apartment,Cleaning staff,2,0.55,0.46,0.72
+100162,0,Revolving loans,F,1,1,2,54504.32,133851.18,8518.07,-11049,-1757,Working,Higher education,Separated,House / apartment,Managers,3,0.83,0.25,0.54
+100163,1,Cash loans,M,0,0,4,121405.64,476582.14,34190.52,-6372,-1208,Commercial associate,Secondary / special,Single / not married,House / apartment,Cooking staff,6,0.39,0.14,0.39
+100164,0,Revolving loans,M,1,1,1,172744.08,412713.12,27948.64,-6924,-2466,State servant,Lower secondary,Widow,Municipal apartment,Managers,4,0.43,0.45,0.44
+100165,1,Cash loans,M,0,1,0,185106.31,248669.72,10261.91,-8365,2493,Pensioner,Lower secondary,Separated,House / apartment,Drivers,3,0.54,0.74,0.59
+100166,1,Revolving loans,M,1,1,4,229583.24,887860.69,31843.84,-13846,698,Commercial associate,Secondary / special,Single / not married,With parents,Sales staff,7,0.17,0.3,0.5
+100167,1,Cash loans,M,0,0,1,234465.15,459908.85,17302.03,-11404,-333,Working,Academic degree,Single / not married,With parents,Accountants,3,0.69,0.48,0.84
+100168,0,Cash loans,M,1,1,4,113296.24,100000,5528.66,-12114,-1038,Unemployed,Academic degree,Married / civil union,Rented apartment,Cooking staff,6,0.77,0.43,0.52
+100169,0,Revolving loans,M,0,1,0,154616.51,239641.86,17111.17,-7320,2030,State servant,Secondary / special,Single / not married,Rented apartment,Sales staff,1,0.49,0.43,0.24
+100170,1,Revolving loans,F,0,1,1,258109.92,659374.4,44582.1,-12525,-2549,Commercial associate,Academic degree,Single / not married,Rented apartment,Private service staff,4,0.21,0.35,0.45
+100171,1,Revolving loans,M,0,0,0,53909.87,151613.52,5198.02,-10839,841,Unemployed,Secondary / special,Separated,Municipal apartment,Sales staff,1,0.14,0.44,0.46
+100172,1,Cash loans,M,1,0,3,193861.17,360058.06,12326.58,-9977,-3611,Commercial associate,Lower secondary,Widow,Rented apartment,Cleaning staff,4,0.42,0.57,0.43
+100173,0,Cash loans,F,0,1,1,205458.49,803299.32,29566.41,-11253,695,Unemployed,Secondary / special,Widow,Municipal apartment,Managers,3,0.41,0.65,0.5
+100174,1,Cash loans,F,1,1,3,50000,100000,6293.31,-12932,-4395,Working,Secondary / special,Married / civil union,Rented apartment,Drivers,6,0.43,0.4,0.39
+100175,0,Revolving loans,F,0,1,4,58373.62,146711.81,7671.4,-12408,566,Working,Secondary / special,Married / civil union,Rented apartment,Medicine staff,7,0.53,0.47,0.48
+100176,0,Cash loans,F,0,0,1,139127.42,459144.89,35122.8,-9996,-479,State servant,Higher education,Separated,Rented apartment,Drivers,3,0.8,0.58,0.66
+100177,1,Revolving loans,F,0,1,0,139184.74,326666.94,20238.79,-12367,-192,Commercial associate,Higher education,Widow,With parents,Private service staff,2,0.62,0.62,0.65
+100178,1,Cash loans,F,0,1,2,289058.46,436744.7,17188.06,-13389,2090,Pensioner,Academic degree,Widow,House / apartment,Low skill laborers,3,0.69,0.7,0.59
+100179,0,Revolving loans,M,0,0,4,170479.21,304137.68,21633.48,-6681,-1385,Pensioner,Secondary / special,Separated,Rented apartment,Low skill laborers,5,0.84,0.46,0.52
+100180,1,Revolving loans,F,1,1,4,50000,100000,6520.27,-10740,2802,Working,Secondary / special,Widow,Rented apartment,IT staff,7,0.82,0.72,0.26
+100181,1,Cash loans,F,1,0,2,50000,100000,3012.37,-7526,-1245,Commercial associate,Higher education,Single / not married,Rented apartment,Managers,3,0.49,0.34,0.44
+100182,1,Cash loans,M,1,1,1,275692.27,983692.79,34101.68,-11905,-1954,Unemployed,Higher education,Widow,With parents,Medicine staff,2,0.24,0.58,0.6
+100183,1,Revolving loans,M,1,0,1,203671.94,107877.2,6742.43,-13210,-3255,State servant,Higher education,Widow,Rented apartment,Medicine staff,3,0.45,0.09,0.33
+100184,0,Revolving loans,F,1,0,3,217298.95,791553.56,61530.29,-14108,-3026,State servant,Higher education,Separated,House / apartment,Security staff,6,0.48,0.49,0.31
+100185,0,Revolving loans,M,1,0,1,316530.39,330400.73,15309.95,-7083,-1417,Unemployed,Secondary / special,Married / civil union,Rented apartment,HR staff,2,0.81,0.36,0.39
+100186,1,Cash loans,F,0,1,2,59705.34,139321.79,6011.38,-7262,-816,Pensioner,Academic degree,Separated,Rented apartment,Secretaries,3,0.59,0.24,0.55
+100187,0,Cash loans,M,0,0,3,92359.96,337741.3,13160.84,-14450,2815,Commercial associate,Secondary / special,Single / not married,Rented apartment,Medicine staff,4,0.68,0.56,0.86
+100188,1,Cash loans,F,0,0,2,209249.92,747063.03,57934.37,-6023,-1918,Commercial associate,Higher education,Single / not married,Rented apartment,Security staff,3,0.24,0.34,0.33
+100189,1,Revolving loans,M,0,1,1,212523.86,725056.92,33579.26,-13417,-4389,Pensioner,Secondary / special,Single / not married,Rented apartment,Cooking staff,2,0.65,0.32,0.28
+100190,1,Cash loans,M,0,0,3,118656.39,340560.67,14646.95,-8848,-1994,Commercial associate,Higher education,Married / civil union,Rented apartment,Accountants,6,0.62,0.8,0.38
+100191,0,Revolving loans,M,0,0,3,108814.86,272972.39,19404.04,-12471,-1865,Commercial associate,Lower secondary,Widow,Municipal apartment,High skill tech staff,4,0.76,0.49,0.71
+100192,1,Cash loans,M,0,1,1,160300.55,362018.98,17890.64,-8946,-1205,Unemployed,Secondary / special,Separated,With parents,Low skill laborers,2,0.8,0.52,0.13
+100193,0,Cash loans,M,1,0,0,216149.6,842196.01,48094.64,-8876,-4261,Unemployed,Academic degree,Married / civil union,Rented apartment,Security staff,1,0.37,0.42,0.71
+100194,1,Revolving loans,M,0,1,3,50000,195775.62,13042.1,-13157,2869,State servant,Higher education,Married / civil union,Municipal apartment,Managers,6,0.48,0.54,0.63
+100195,0,Cash loans,M,1,0,2,207036.58,335050.48,20709.25,-7453,488,Working,Lower secondary,Married / civil union,Rented apartment,Security staff,4,0.5,0.33,0.61
+100196,1,Revolving loans,F,0,0,4,180340.16,137004.67,5275.4,-12151,-4386,Working,Academic degree,Widow,With parents,Sales staff,5,0.13,0.25,0.08
+100197,1,Cash loans,M,0,0,1,97470.13,274580.27,16477.77,-9271,-2803,Unemployed,Academic degree,Single / not married,House / apartment,Secretaries,4,0.52,0.6,0.55
+100198,0,Cash loans,M,0,1,3,175690.77,409190.46,32032.0,-13779,-3070,Working,Academic degree,Single / not married,With parents,Secretaries,5,0.24,0.67,0.53
+100199,0,Cash loans,F,1,1,2,102127.09,339644.37,11667.25,-12510,2017,Unemployed,Academic degree,Widow,Municipal apartment,Sales staff,5,0.32,0.5,0.25
+100200,1,Revolving loans,F,1,1,2,252152.15,481713.7,29342.25,-12581,-7,State servant,Secondary / special,Single / not married,Municipal apartment,Drivers,5,0.26,0.41,0.84
+100201,0,Cash loans,M,1,1,0,82743.63,190952.02,9298.51,-6920,-3698,State servant,Academic degree,Single / not married,Municipal apartment,Low skill laborers,2,0.33,0.6,0.19
+100202,1,Cash loans,M,0,1,0,194378.86,331390.97,23821.27,-10237,643,State servant,Lower secondary,Separated,Municipal apartment,Cooking staff,2,0.76,0.3,0.6
+100203,1,Cash loans,F,1,0,4,102504.28,159651.22,8945.56,-12506,-4940,Working,Academic degree,Separated,Rented apartment,Cooking staff,7,0.46,0.42,0.36
+100204,0,Cash loans,F,0,0,1,162514.08,500309.71,29593.91,-9111,843,Unemployed,Higher education,Separated,Municipal apartment,HR staff,4,0.32,0.37,0.6
+100205,0,Revolving loans,M,1,0,4,85686.0,181925.28,6529.13,-6879,-220,Working,Academic degree,Separated,With parents,High skill tech staff,7,0.12,0.51,0.18
+100206,0,Revolving loans,M,0,1,3,217052.72,112107.14,4896.44,-8762,-3703,State servant,Lower secondary,Single / not married,House / apartment,Secretaries,4,0.28,0.42,0.47
+100207,0,Cash loans,M,0,0,2,223219.32,518094.15,29119.94,-13105,-3904,Commercial associate,Academic degree,Widow,House / apartment,Private service staff,4,0.7,0.64,0.55
+100208,1,Revolving loans,F,0,0,0,125425.56,370825.53,14934.9,-6152,420,State servant,Academic degree,Single / not married,Municipal apartment,High skill tech staff,3,0.51,0.5,0.46
+100209,1,Cash loans,M,0,0,4,180127.43,159684.45,9374.7,-14095,-3282,Unemployed,Lower secondary,Widow,Rented apartment,IT staff,5,0.79,0.76,0.63
+100210,0,Cash loans,F,1,0,2,152418.59,510964.27,20000.92,-12566,-1261,Commercial associate,Academic degree,Married / civil union,House / apartment,Security staff,4,0.76,0.42,0.64
+100211,0,Revolving loans,M,0,1,2,290533.43,678936.74,45611.78,-9669,487,Unemployed,Higher education,Separated,Rented apartment,Sales staff,5,0.65,0.26,0.56
+100212,0,Revolving loans,F,1,0,4,160936.03,390549.02,19110.3,-9850,-1831,Pensioner,Academic degree,Separated,Municipal apartment,IT staff,6,0.34,0.44,0.58
+100213,0,Cash loans,F,0,0,2,142679.2,450526.66,18510.95,-11592,190,Commercial associate,Academic degree,Single / not married,Municipal apartment,Sales staff,5,0.72,0.19,0.5
+100214,0,Cash loans,M,1,1,1,116342.31,100000,7676.54,-13912,1398,State servant,Lower secondary,Single / not married,With parents,Drivers,4,0.7,0.53,0.29
+100215,1,Cash loans,M,0,0,2,133750.29,381630.78,30174.31,-8913,687,Unemployed,Higher education,Separated,Rented apartment,Managers,5,0.26,0.42,0.24
+100216,1,Revolving loans,M,0,1,3,212345.14,619428.19,27723.77,-14866,-316,Pensioner,Academic degree,Single / not married,Rented apartment,HR staff,4,0.39,0.42,0.71
+100217,1,Revolving loans,M,0,0,0,146642.96,445384.13,17670.56,-13353,592,State servant,Higher education,Widow,Municipal apartment,Accountants,1,0.35,0.76,0.46
+100218,1,Revolving loans,F,0,1,4,103822.32,372918.19,23556.02,-11424,-3211,State servant,Academic degree,Widow,House / apartment,Security staff,7,0.43,0.5,0.32
+100219,1,Cash loans,M,0,0,0,179713.18,686278.14,26332.31,-14814,135,Unemployed,Secondary / special,Single / not married,Rented apartment,Cooking staff,1,0.27,0.11,0.63
+100220,0,Revolving loans,M,0,0,4,228652.15,618677.95,31955.49,-6276,-4031,Commercial associate,Lower secondary,Single / not married,Rented apartment,Medicine staff,5,0.48,0.49,0.35
+100221,1,Cash loans,M,0,1,1,287327.23,795262.04,61926.72,-6182,-453,State servant,Secondary / special,Separated,House / apartment,Security staff,2,0.1,0.09,0.3
+100222,0,Revolving loans,F,1,0,1,119634.59,363636.81,19767.12,-11420,499,Unemployed,Academic degree,Widow,Municipal apartment,High skill tech staff,2,0.76,0.51,0.77
+100223,1,Cash loans,F,1,0,4,116509.17,321498.97,10962.69,-10597,-3854,State servant,Lower secondary,Single / not married,Municipal apartment,Private service staff,5,0.48,0.24,0.33
+100224,0,Revolving loans,F,1,1,4,152747.74,288502.0,15898.87,-9913,1607,Working,Secondary / special,Separated,House / apartment,IT staff,7,0.36,0.62,0.53
+100225,1,Revolving loans,M,0,0,2,112618.45,348743.76,20552.02,-8848,-1900,Pensioner,Lower secondary,Married / civil union,With parents,Cooking staff,5,0.37,0.24,0.5
+100226,1,Revolving loans,M,0,1,1,108360.82,327346.63,17701.54,-13844,-161,State servant,Academic degree,Widow,With parents,Drivers,4,0.18,0.25,0.19
+100227,0,Cash loans,M,1,0,2,50000,168579.31,6590.47,-14369,932,State servant,Secondary / special,Widow,Municipal apartment,High skill tech staff,4,0.45,0.03,0.68
+100228,1,Cash loans,M,0,1,2,76262.64,224345.6,11542.09,-13899,-1877,Pensioner,Lower secondary,Widow,Rented apartment,Accountants,5,0.38,0.23,0.12
+100229,0,Revolving loans,M,0,0,3,118958.59,415453.28,21262.1,-11990,575,State servant,Academic degree,Separated,House / apartment,Managers,4,0.63,0.75,0.51
+100230,0,Revolving loans,M,0,0,3,106373.19,289927.39,20358.26,-8381,-83,State servant,Higher education,Married / civil union,Rented apartment,Drivers,4,0.34,0.49,0.73
+100231,1,Cash loans,M,1,1,4,179489.29,263091.64,13147.13,-12474,-3360,Working,Lower secondary,Separated,Municipal apartment,Cooking staff,5,0.13,0.45,0.27
+100232,1,Revolving loans,F,0,0,4,145451.96,464702.3,31541.05,-13517,2344,Commercial associate,Lower secondary,Separated,With parents,Low skill laborers,5,0.51,0.23,0.33
+100233,0,Revolving loans,F,0,1,2,250318.61,922360.51,50683.68,-9271,-3018,Commercial associate,Higher education,Single / not married,House / apartment,Private service staff,3,0.75,0.39,0.8
+100234,1,Revolving loans,F,1,1,1,115384.11,250858.94,14308.59,-14232,2048,Commercial associate,Higher education,Single / not married,With parents,Secretaries,3,0.33,0.41,0.41
+100235,0,Revolving loans,F,1,1,1,143581.99,288996.9,14173.61,-8389,1050,Unemployed,Lower secondary,Separated,House / apartment,Cooking staff,3,0.45,0.82,0.51
+100236,0,Cash loans,M,1,0,4,200934.74,710463.06,55526.83,-9259,323,Unemployed,Lower secondary,Separated,Rented apartment,Low skill laborers,5,0.45,0.47,0.75
+100237,0,Cash loans,F,0,0,1,139890.4,492389.42,23712.61,-14535,-1609,Commercial associate,Lower secondary,Single / not married,With parents,IT staff,2,0.24,0.51,0.32
+100238,0,Revolving loans,F,0,0,2,225273.61,606590.28,22179.28,-8795,-933,Commercial associate,Lower secondary,Separated,Municipal apartment,Security staff,4,0.54,0.57,0.71
+100239,0,Cash loans,F,0,1,3,235023.21,741269.57,27289.86,-10698,-4932,Pensioner,Lower secondary,Separated,Rented apartment,Cooking staff,5,0.41,0.86,0.51
+100240,0,Cash loans,F,0,0,3,155647.38,115120.51,4240.03,-7808,60,Working,Lower secondary,Widow,House / apartment,Private service staff,5,0.77,0.87,0.61
+100241,0,Cash loans,F,1,1,1,197737.68,664473.25,47451.76,-7998,854,Pensioner,Lower secondary,Married / civil union,With parents,Accountants,3,0.65,0.53,0.38
+100242,1,Revolving loans,M,1,1,1,275599.17,556590.64,17117.05,-10523,-1758,Commercial associate,Higher education,Married / civil union,Municipal apartment,High skill tech staff,2,0.83,0.42,0.57
+100243,0,Revolving loans,M,0,1,4,149913.07,445720.19,25830.04,-14892,-3446,State servant,Higher education,Separated,House / apartment,Medicine staff,5,0.43,0.6,0.37
+100244,0,Revolving loans,F,0,1,4,169870.29,571897.89,22586.23,-14151,-3738,Pensioner,Secondary / special,Married / civil union,With parents,Medicine staff,6,0.36,0.16,0.3
+100245,0,Cash loans,F,0,1,0,171992.77,568190.13,18770.17,-12814,1506,Commercial associate,Academic degree,Married / civil union,With parents,HR staff,3,0.66,0.89,0.51
+100246,1,Cash loans,M,1,0,3,131751.78,251046.44,11767.96,-8591,-86,Unemployed,Higher education,Married / civil union,House / apartment,Cleaning staff,5,0.73,0.46,0.8
+100247,0,Revolving loans,M,0,0,4,193191.13,490231.18,20417.99,-10920,-2013,Commercial associate,Secondary / special,Separated,House / apartment,High skill tech staff,5,0.49,0.55,0.52
+100248,0,Revolving loans,M,1,1,3,201158.59,205891.87,11348.78,-9617,518,State servant,Higher education,Single / not married,With parents,Accountants,5,0.79,0.31,0.4
+100249,1,Cash loans,M,0,1,1,53743.08,135221.03,4817.45,-12776,-2147,Working,Lower secondary,Married / civil union,Rented apartment,Cleaning staff,3,0.61,0.74,0.68
+100250,1,Cash loans,M,1,1,2,195246.52,324415.47,21736.05,-9471,-714,Unemployed,Secondary / special,Married / civil union,Rented apartment,Secretaries,5,0.68,0.14,0.24
+100251,1,Cash loans,F,0,1,4,50000,113994.56,7464.87,-11168,-109,Commercial associate,Secondary / special,Separated,With parents,Managers,5,0.2,0.06,0.33
+100252,1,Cash loans,F,0,0,4,277904.81,521061.27,19207.9,-12262,554,Unemployed,Secondary / special,Married / civil union,With parents,High skill tech staff,7,0.61,0.52,0.54
+100253,0,Revolving loans,M,1,1,2,160451.81,259194.83,20384.33,-12737,1108,Commercial associate,Higher education,Single / not married,With parents,Drivers,3,0.18,0.49,0.3
+100254,0,Cash loans,M,1,1,1,163566.19,519467.56,15974.0,-10421,-3177,Working,Higher education,Widow,House / apartment,Private service staff,2,0.49,0.73,0.84
+100255,0,Cash loans,F,0,1,3,167067.0,194545.55,10112.03,-10989,-2658,Working,Lower secondary,Separated,With parents,IT staff,4,0.79,0.4,0.55
+100256,1,Cash loans,M,0,1,3,50000,100000,6531.13,-11946,-753,Working,Academic degree,Widow,Municipal apartment,Private service staff,6,0.6,0.39,0.33
+100257,1,Cash loans,F,0,0,4,86438.63,108831.29,6853.49,-13434,-4350,Unemployed,Higher education,Widow,Rented apartment,Sales staff,7,0.07,0.26,0.09
+100258,0,Revolving loans,F,1,1,3,98759.65,152833.59,7401.5,-12208,1213,State servant,Lower secondary,Single / not married,Municipal apartment,Private service staff,6,0.7,0.77,0.73
+100259,1,Revolving loans,M,0,1,0,50000,179641.14,7479.55,-10759,-4988,Unemployed,Academic degree,Married / civil union,With parents,Drivers,1,0.3,0.72,0.57
+100260,1,Revolving loans,M,0,1,1,151804.83,255453.97,16252.91,-13774,289,Working,Lower secondary,Widow,With parents,Low skill laborers,3,0.24,0.55,0.91
+100261,0,Cash loans,M,1,1,3,163378.43,529052.63,24026.43,-11152,-2776,State servant,Lower secondary,Separated,With parents,HR staff,4,0.47,0.52,0.61
+100262,0,Revolving loans,M,1,0,3,182229.0,615475.68,47330.81,-8174,-4701,Pensioner,Lower secondary,Separated,Rented apartment,HR staff,5,0.85,0.64,0.08
+100263,1,Cash loans,M,1,1,2,179419.5,261545.03,8045.87,-14422,-1428,Pensioner,Academic degree,Separated,Rented apartment,High skill tech staff,5,0.36,0.37,0.52
+100264,0,Revolving loans,F,1,0,3,176820.7,529603.7,33652.88,-14740,-555,Working,Academic degree,Married / civil union,Rented apartment,Cleaning staff,6,0.19,0.58,0.51
+100265,0,Revolving loans,F,0,0,0,207111.82,541709.41,19701.81,-7686,851,Working,Academic degree,Married / civil union,Municipal apartment,High skill tech staff,2,0.62,0.66,0.64
+100266,0,Revolving loans,M,0,1,4,255136.8,861617.54,33438.26,-12648,-3205,Unemployed,Lower secondary,Widow,Rented apartment,Accountants,6,0.67,0.21,0.61
+100267,1,Revolving loans,F,1,0,0,86039.74,298276.44,21662.4,-7022,-504,Unemployed,Higher education,Single / not married,House / apartment,Accountants,1,0.61,0.63,0.35
+100268,0,Revolving loans,M,1,1,0,96070.46,100000,7424.44,-13155,-3888,State servant,Lower secondary,Married / civil union,House / apartment,Low skill laborers,1,0.52,0.62,0.52
+100269,0,Cash loans,F,1,1,2,87462.01,338135.32,11497.67,-14624,1148,State servant,Lower secondary,Widow,Rented apartment,HR staff,4,0.47,0.49,0.48
+100270,0,Revolving loans,F,0,0,2,217799.55,236590.99,15319.87,-10981,-383,State servant,Higher education,Single / not married,Municipal apartment,High skill tech staff,3,0.6,0.84,0.28
+100271,1,Revolving loans,F,1,1,1,142318.29,312703.86,21879.45,-6542,-4309,State servant,Higher education,Widow,Municipal apartment,Cleaning staff,4,0.27,0.45,0.22
+100272,0,Cash loans,M,1,0,3,258467.83,609091.71,31512.41,-10731,-1324,Unemployed,Secondary / special,Married / civil union,House / apartment,Sales staff,6,0.52,0.68,0.63
+100273,1,Revolving loans,F,1,1,4,50000,100000,6626.25,-10127,-4806,Unemployed,Higher education,Married / civil union,Rented apartment,HR staff,5,0.25,0.45,0.43
+100274,1,Cash loans,F,1,0,1,133169.48,247704.09,19766.27,-10230,-2832,Commercial associate,Higher education,Married / civil union,House / apartment,Medicine staff,3,0.66,0.71,0.75
+100275,0,Revolving loans,M,0,0,0,186297.93,348313.09,10513.9,-14039,-1692,Commercial associate,Higher education,Separated,Municipal apartment,Accountants,3,0.35,0.45,0.56
+100276,1,Cash loans,F,0,0,0,201035.94,353303.36,12098.21,-13175,-3854,State servant,Academic degree,Single / not married,With parents,Accountants,1,0.2,0.59,0.88
+100277,0,Revolving loans,F,0,0,1,214204.33,460382.66,34943.48,-6750,314,Unemployed,Higher education,Married / civil union,With parents,High skill tech staff,2,0.68,0.64,0.34
+100278,0,Revolving loans,M,0,0,1,229208.18,334329.18,22693.43,-8753,-467,Unemployed,Academic degree,Widow,With parents,Managers,3,0.81,0.87,0.81
+100279,0,Revolving loans,M,0,0,4,192873.82,433890.25,33632.96,-10934,-4963,Working,Lower secondary,Separated,With parents,Cooking staff,5,0.18,0.41,0.32
+100280,1,Cash loans,M,1,0,0,160327.64,426289.98,31760.3,-13424,-618,Commercial associate,Higher education,Married / civil union,Municipal apartment,Low skill laborers,3,0.47,0.74,0.57
+100281,1,Cash loans,M,0,1,1,180259.97,675543.14,35634.59,-12346,-1251,State servant,Academic degree,Single / not married,Municipal apartment,Secretaries,4,0.52,0.73,0.6
+100282,0,Cash loans,M,0,1,4,125122.93,100000,5140.55,-10041,-1443,Pensioner,Higher education,Separated,Rented apartment,Drivers,5,0.84,0.33,0.39
+100283,0,Cash loans,M,1,0,1,217372.14,340606.51,22195.7,-6399,-1201,State servant,Lower secondary,Married / civil union,House / apartment,Cooking staff,4,0.44,0.72,0.39
+100284,0,Cash loans,F,1,1,0,193190.1,515231.64,24874.64,-8871,774,State servant,Lower secondary,Married / civil union,With parents,Cleaning staff,3,0.81,0.71,0.85
+100285,0,Revolving loans,F,1,1,1,116024.68,447147.26,15134.76,-8699,710,Commercial associate,Lower secondary,Single / not married,Rented apartment,Managers,3,0.58,0.93,0.19
+100286,0,Cash loans,F,1,1,1,177862.29,230106.98,11182.08,-10720,-4613,Pensioner,Higher education,Married / civil union,Rented apartment,High skill tech staff,3,0.24,0.53,0.76
+100287,0,Revolving loans,M,0,0,1,50000,118387.52,4270.77,-6408,-909,Unemployed,Higher education,Married / civil union,House / apartment,Private service staff,3,0.75,0.9,0.32
+100288,0,Revolving loans,M,1,1,2,210690.72,604623.78,47088.82,-14385,-983,Pensioner,Secondary / special,Single / not married,With parents,Security staff,5,0.55,0.36,0.15
+100289,0,Cash loans,M,0,0,2,288427.52,210957.4,16455.68,-12156,-1973,Unemployed,Lower secondary,Widow,House / apartment,Medicine staff,4,0.33,0.46,0.63
+100290,0,Cash loans,F,0,0,2,50000,100000,3896.86,-10009,-518,Unemployed,Lower secondary,Widow,Rented apartment,Sales staff,4,0.52,0.41,0.69
+100291,0,Revolving loans,F,0,0,1,50000,114926.64,7852.03,-9002,-95,Pensioner,Higher education,Single / not married,With parents,HR staff,4,0.33,0.56,0.73
+100292,0,Cash loans,M,1,0,4,119610.33,316608.45,22659.92,-14612,837,Pensioner,Higher education,Married / civil union,Municipal apartment,IT staff,7,0.21,0.36,0.35
+100293,1,Revolving loans,F,1,0,4,160415.34,352094.36,18154.82,-9217,-402,State servant,Higher education,Married / civil union,House / apartment,Secretaries,7,0.2,0.36,0.36
+100294,1,Cash loans,M,1,1,4,158807.87,100000,4084.99,-9138,-3593,Unemployed,Secondary / special,Married / civil union,Rented apartment,Cleaning staff,5,0.26,0.56,0.53
+100295,0,Cash loans,M,0,1,2,130125.58,207163.08,16326.3,-13273,-1664,Pensioner,Lower secondary,Single / not married,Municipal apartment,Accountants,4,0.33,0.89,0.86
+100296,1,Cash loans,F,0,0,3,242704.93,482124.78,26495.41,-10472,1561,Commercial associate,Lower secondary,Single / not married,Rented apartment,Low skill laborers,5,0.65,0.76,0.79
+100297,0,Revolving loans,M,1,1,3,156576.46,363229.39,19835.73,-13635,423,Pensioner,Lower secondary,Widow,Municipal apartment,HR staff,5,0.32,0.23,0.86
+100298,0,Cash loans,M,1,0,4,50000,143129.3,9017.71,-14837,-1102,Unemployed,Higher education,Married / civil union,Rented apartment,Sales staff,5,0.67,0.88,0.54
+100299,0,Cash loans,F,1,0,3,209280.65,764907.06,33144.15,-13695,-2408,Unemployed,Academic degree,Single / not married,House / apartment,IT staff,6,0.4,0.59,0.46
+100300,1,Cash loans,M,1,0,3,81353.4,100000,4684.19,-7102,-650,Commercial associate,Lower secondary,Widow,House / apartment,Private service staff,5,0.18,0.51,0.32
+100301,0,Revolving loans,F,0,0,0,99528.51,309784.22,21150.98,-13133,2046,Pensioner,Lower secondary,Single / not married,House / apartment,Security staff,3,0.33,0.58,0.32
+100302,0,Revolving loans,F,0,0,0,162121.6,238675.74,13732.28,-6691,-1020,State servant,Secondary / special,Separated,Rented apartment,Secretaries,1,0.47,0.12,0.11
+100303,1,Cash loans,M,0,1,2,60423.98,100000,5114.34,-8363,-2774,State servant,Academic degree,Separated,Rented apartment,HR staff,4,0.69,0.54,0.36
+100304,1,Revolving loans,F,1,0,3,224150.51,531727.01,22236.34,-13248,2452,Pensioner,Lower secondary,Married / civil union,Rented apartment,Cooking staff,5,0.24,0.27,0.77
+100305,0,Revolving loans,F,1,0,3,194446.82,405696.99,12725.72,-6853,-3495,Unemployed,Higher education,Separated,Rented apartment,Drivers,6,0.24,0.22,0.46
+100306,1,Revolving loans,F,1,0,4,50000,100000,4967.47,-12182,2244,Pensioner,Higher education,Single / not married,Rented apartment,Security staff,5,0.81,0.61,0.73
+100307,0,Cash loans,F,1,1,3,95126.01,116350.6,4744.58,-10636,-3449,Working,Secondary / special,Married / civil union,House / apartment,High skill tech staff,4,0.43,0.5,0.54
+100308,1,Cash loans,M,1,1,4,200200.94,430084.38,20521.51,-6745,-1584,Unemployed,Academic degree,Separated,Rented apartment,Low skill laborers,6,0.26,0.43,0.14
+100309,0,Revolving loans,F,1,0,4,225651.95,456993.45,17479.63,-14049,-3761,Pensioner,Secondary / special,Separated,House / apartment,Drivers,7,0.55,0.32,0.17
+100310,0,Revolving loans,M,0,0,4,112475.79,127355.48,4892.33,-14335,-386,Commercial associate,Academic degree,Widow,Rented apartment,Low skill laborers,5,0.37,0.22,0.47
+100311,1,Cash loans,M,1,1,2,139967.68,374872.22,19738.93,-8118,-4602,Commercial associate,Lower secondary,Single / not married,Rented apartment,Medicine staff,4,0.57,0.3,0.51
+100312,0,Cash loans,F,1,0,2,168405.39,300788.69,12029.61,-13298,-1098,Pensioner,Lower secondary,Single / not married,Municipal apartment,Security staff,5,0.74,0.81,0.65
+100313,0,Revolving loans,F,0,0,4,50000,114847.54,6377.78,-12766,-944,Pensioner,Secondary / special,Separated,House / apartment,Cooking staff,6,0.31,0.84,0.47
+100314,1,Revolving loans,F,0,1,3,100775.51,100000,3583.39,-8813,-1231,Commercial associate,Secondary / special,Married / civil union,With parents,Managers,6,0.41,0.57,0.5
+100315,0,Revolving loans,M,0,0,3,74074.55,100000,5247.58,-9975,-336,Commercial associate,Lower secondary,Married / civil union,Rented apartment,Medicine staff,4,0.2,0.33,0.28
+100316,0,Revolving loans,F,1,0,0,177191.61,382146.12,20918.46,-11681,-1427,State servant,Higher education,Separated,House / apartment,Medicine staff,1,0.52,0.48,0.83
+100317,0,Cash loans,F,0,0,4,168918.4,375446.5,26158.91,-14089,-3285,Working,Academic degree,Widow,House / apartment,Accountants,5,0.56,0.58,0.39
+100318,0,Cash loans,M,1,1,4,186164.2,490318.41,35753.71,-7669,-4657,Unemployed,Higher education,Married / civil union,Rented apartment,High skill tech staff,5,0.31,0.39,0.49
+100319,0,Cash loans,M,1,1,1,65098.0,100000,6766.03,-14677,-3131,Commercial associate,Lower secondary,Separated,Rented apartment,Sales staff,3,0.38,0.88,0.47
+100320,0,Revolving loans,M,0,1,1,200204.7,730893.29,44233.7,-8406,-1345,State servant,Lower secondary,Single / not married,House / apartment,Sales staff,4,0.44,0.43,0.17
+100321,1,Revolving loans,F,0,1,0,97534.11,332864.56,15044.51,-12926,-4096,State servant,Higher education,Married / civil union,Rented apartment,Private service staff,2,0.36,0.2,0.39
+100322,0,Revolving loans,F,0,0,3,136552.72,461541.29,22183.23,-7605,-1907,State servant,Higher education,Widow,Municipal apartment,Managers,4,0.41,0.26,0.56
+100323,1,Revolving loans,M,0,1,4,64380.01,188675.12,9956.69,-6534,2733,Working,Secondary / special,Separated,House / apartment,Secretaries,6,0.24,0.27,0.15
+100324,0,Revolving loans,F,0,1,3,142890.38,312089.38,14195.41,-13411,1400,Unemployed,Secondary / special,Single / not married,House / apartment,Low skill laborers,5,0.92,0.65,0.71
+100325,1,Revolving loans,F,0,1,4,158138.82,436156.17,27127.04,-7395,68,Working,Lower secondary,Widow,With parents,Cooking staff,7,0.56,0.38,0.19
+100326,0,Cash loans,M,0,0,4,90385.94,212195.1,10418.9,-7491,-3244,Commercial associate,Academic degree,Married / civil union,Rented apartment,Sales staff,5,0.89,0.7,0.7
+100327,0,Revolving loans,M,0,1,4,125663.94,100000,6167.71,-6305,2892,State servant,Lower secondary,Single / not married,House / apartment,Sales staff,7,0.31,0.41,0.71
+100328,0,Revolving loans,F,0,1,1,141561.66,309687.63,18548.24,-12228,1901,Unemployed,Higher education,Widow,Rented apartment,Sales staff,4,0.31,0.34,0.19
+100329,0,Revolving loans,F,0,0,4,255577.78,672362.17,20314.73,-6156,-1616,Working,Academic degree,Separated,With parents,Cleaning staff,7,0.42,0.68,0.46
+100330,0,Cash loans,M,0,0,4,267839.0,830570.22,56413.2,-11862,1686,Pensioner,Lower secondary,Single / not married,Rented apartment,Drivers,7,0.79,0.81,0.81
+100331,1,Cash loans,F,0,0,0,333259.37,957144.45,58120.52,-13437,-1901,Pensioner,Academic degree,Married / civil union,With parents,Drivers,2,0.4,0.25,0.24
+100332,0,Cash loans,M,0,0,0,176807.51,280738.58,17209.2,-7584,-1881,Commercial associate,Lower secondary,Married / civil union,With parents,Sales staff,3,0.76,0.75,0.45
+100333,1,Cash loans,M,0,0,3,94608.75,254653.48,8477.29,-6914,-2585,State servant,Secondary / special,Single / not married,With parents,Medicine staff,5,0.18,0.16,0.18
+100334,0,Cash loans,M,0,0,0,171162.25,298484.58,16139.05,-13284,-3873,Commercial associate,Lower secondary,Single / not married,With parents,Medicine staff,1,0.3,0.42,0.57
+100335,1,Cash loans,F,0,0,4,164063.17,465530.96,30138.05,-13657,-2288,Unemployed,Secondary / special,Married / civil union,With parents,Security staff,7,0.3,0.12,0.15
+100336,0,Revolving loans,F,0,1,1,87571.24,237289.26,17947.48,-11896,-3529,Working,Secondary / special,Single / not married,With parents,HR staff,2,0.54,0.49,0.65
+100337,1,Revolving loans,F,1,1,4,50000,100000,5147.7,-10006,1251,Pensioner,Lower secondary,Separated,Municipal apartment,IT staff,7,0.35,0.19,0.53
+100338,1,Revolving loans,F,1,1,1,128107.61,276475.89,16328.48,-6599,2330,Commercial associate,Lower secondary,Widow,Rented apartment,Security staff,3,0.2,0.38,0.26
+100339,0,Cash loans,F,1,1,4,171877.22,474164.91,22738.41,-7350,-890,Commercial associate,Academic degree,Married / civil union,Municipal apartment,Medicine staff,7,0.74,0.33,0.34
+100340,0,Cash loans,F,0,0,1,196164.08,620675.29,23253.01,-12512,925,Unemployed,Secondary / special,Widow,Rented apartment,High skill tech staff,3,0.36,0.82,0.5
+100341,1,Revolving loans,M,0,0,4,50000,158497.28,10227.18,-10909,-4810,Working,Academic degree,Separated,With parents,Drivers,5,0.61,0.73,0.83
+100342,0,Revolving loans,F,0,0,2,202645.51,473255.26,24956.26,-12039,-3593,Pensioner,Academic degree,Married / civil union,Municipal apartment,Low skill laborers,4,0.75,0.52,0.53
+100343,0,Cash loans,F,1,0,3,50000,178866.89,9481.77,-6640,-2642,Unemployed,Secondary / special,Married / civil union,Rented apartment,Cooking staff,5,0.55,0.19,0.36
+100344,0,Revolving loans,M,1,1,3,125135.63,173273.21,9582.57,-13572,-1034,Pensioner,Higher education,Married / civil union,House / apartment,Managers,5,0.6,0.6,0.74
+100345,0,Cash loans,F,0,0,1,81948.0,100000,6817.95,-10476,-2067,Unemployed,Higher education,Single / not married,House / apartment,Sales staff,2,0.65,0.31,0.56
+100346,1,Cash loans,M,1,1,1,134943.91,534717.56,25054.64,-9148,-4483,Pensioner,Secondary / special,Widow,Rented apartment,Sales staff,2,0.79,0.58,0.38
+100347,0,Revolving loans,M,1,1,1,124992.1,419073.17,26190.92,-12045,-24,State servant,Higher education,Married / civil union,With parents,Sales staff,3,0.45,0.53,0.68
+100348,0,Cash loans,F,1,0,0,156626.36,569920.73,25898.58,-13020,77,Pensioner,Lower secondary,Separated,With parents,Drivers,1,0.39,0.42,0.6
+100349,1,Cash loans,M,1,0,4,236216.81,323424.08,20818.0,-9644,-1875,State servant,Higher education,Separated,Rented apartment,Low skill laborers,6,0.59,0.28,0.37
+100350,0,Revolving loans,F,1,1,3,92690.66,252546.2,11009.26,-13883,-2178,Commercial associate,Lower secondary,Widow,Municipal apartment,Accountants,5,0.36,0.68,0.59
+100351,0,Revolving loans,F,1,0,3,139883.02,518471.07,15662.51,-14203,-1935,Commercial associate,Academic degree,Single / not married,With parents,Cleaning staff,5,0.78,0.87,0.68
+100352,0,Cash loans,M,1,0,1,104921.05,351059.8,21606.9,-6462,286,Commercial associate,Lower secondary,Separated,Municipal apartment,Low skill laborers,3,0.88,0.87,0.58
+100353,0,Cash loans,M,0,0,1,50000,152339.11,5247.12,-11642,-2797,Pensioner,Higher education,Separated,Municipal apartment,Cleaning staff,4,0.45,0.78,0.79
+100354,0,Revolving loans,F,1,1,3,225472.32,605500.3,44454.68,-8721,-3299,State servant,Academic degree,Separated,Rented apartment,Medicine staff,4,0.32,0.76,0.08
+100355,0,Revolving loans,F,0,1,2,278975.41,1058284.46,66940.63,-12200,2989,Commercial associate,Secondary / special,Separated,Municipal apartment,Cleaning staff,4,0.53,0.49,0.46
+100356,0,Cash loans,M,1,0,1,149550.35,523403.79,39391.44,-12305,-3402,Pensioner,Lower secondary,Widow,Rented apartment,Drivers,4,0.56,0.33,0.37
+100357,1,Cash loans,M,1,0,0,63206.41,179955.24,11386.46,-14757,-970,Unemployed,Secondary / special,Married / civil union,House / apartment,High skill tech staff,3,0.31,0.08,0.4
+100358,1,Revolving loans,F,0,1,2,50000,189011.86,12707.44,-7902,-3957,Pensioner,Academic degree,Widow,With parents,Low skill laborers,4,0.09,0.26,0.52
+100359,1,Cash loans,F,1,1,0,147485.17,501026.23,15891.15,-11245,641,Pensioner,Secondary / special,Widow,Rented apartment,Cooking staff,2,0.59,0.62,0.31
+100360,1,Revolving loans,F,0,0,2,50000,198305.0,13462.08,-12407,-674,Pensioner,Higher education,Married / civil union,Rented apartment,IT staff,4,0.35,0.22,0.63
+100361,1,Revolving loans,M,1,1,0,248478.33,870794.2,42518.96,-12997,-3622,Unemployed,Academic degree,Separated,House / apartment,Accountants,1,0.28,0.25,0.2
+100362,0,Revolving loans,M,1,1,4,223406.75,207138.38,12857.18,-14351,-193,Working,Secondary / special,Single / not married,House / apartment,Managers,7,0.86,0.52,0.39
+100363,0,Revolving loans,M,1,1,1,147559.18,304756.2,13931.87,-6641,-2806,State servant,Lower secondary,Single / not married,House / apartment,Medicine staff,2,0.66,0.33,0.25
+100364,1,Cash loans,F,0,1,1,143191.4,190423.26,7503.38,-10910,-3237,Pensioner,Lower secondary,Widow,Municipal apartment,Sales staff,4,0.47,0.41,0.29
+100365,1,Cash loans,M,1,1,0,150873.36,356083.08,22860.16,-12664,-1028,Pensioner,Lower secondary,Widow,Municipal apartment,Low skill laborers,2,0.18,0.07,0.29
+100366,0,Cash loans,F,0,1,3,205543.53,109604.27,6102.58,-8547,-3832,Commercial associate,Lower secondary,Married / civil union,House / apartment,Accountants,6,0.63,0.83,0.84
+100367,1,Cash loans,F,0,0,3,189555.43,132867.04,8924.74,-14074,-4913,Pensioner,Secondary / special,Separated,With parents,Private service staff,6,0.41,0.45,0.45
+100368,1,Revolving loans,F,0,1,2,135721.8,100000,5477.54,-8793,-4073,Working,Academic degree,Separated,Rented apartment,High skill tech staff,5,0.55,0.41,0.42
+100369,1,Revolving loans,M,0,1,4,84283.12,160748.0,4893.68,-13058,-4306,Commercial associate,Lower secondary,Married / civil union,With parents,Medicine staff,7,0.76,0.61,0.39
+100370,0,Cash loans,M,1,1,4,240784.93,524317.0,33169.42,-10354,-1647,State servant,Secondary / special,Widow,Municipal apartment,Security staff,6,0.8,0.51,0.77
+100371,0,Revolving loans,M,0,0,0,214338.8,570494.01,37916.42,-9061,1281,Working,Academic degree,Widow,Rented apartment,IT staff,2,0.58,0.41,0.8
+100372,1,Cash loans,M,0,0,0,186759.79,244654.72,11452.02,-13851,-1901,Unemployed,Lower secondary,Separated,Rented apartment,Drivers,2,0.33,0.6,0.59
+100373,0,Revolving loans,F,0,1,1,167123.94,602511.59,22006.3,-7971,-29,Working,Academic degree,Widow,House / apartment,Managers,2,0.75,0.5,0.2
+100374,1,Revolving loans,F,1,0,1,216751.31,636917.61,23213.55,-6744,-4502,Unemployed,Lower secondary,Married / civil union,With parents,Drivers,4,0.6,0.22,0.38
+100375,0,Cash loans,F,1,0,0,151462.22,154262.48,11443.21,-8178,1476,Commercial associate,Higher education,Separated,Rented apartment,Drivers,3,0.95,0.83,0.69
+100376,1,Cash loans,M,1,0,3,169713.93,564649.35,38195.64,-8550,978,Commercial associate,Academic degree,Married / civil union,With parents,IT staff,5,0.29,0.64,0.26
+100377,1,Cash loans,F,1,1,0,181999.29,335600.67,11914.42,-6222,279,Pensioner,Higher education,Married / civil union,Rented apartment,Medicine staff,1,0.42,0.06,0.5
+100378,1,Cash loans,F,0,1,3,152374.52,100000,3222.63,-14923,-810,State servant,Lower secondary,Separated,House / apartment,Security staff,4,0.41,0.78,0.59
+100379,1,Revolving loans,F,1,0,1,64318.46,214664.01,14074.52,-7251,2059,Pensioner,Academic degree,Widow,Municipal apartment,Private service staff,4,0.17,0.1,0.17
+100380,0,Revolving loans,M,0,0,3,50000,118183.03,8399.29,-12301,-722,Working,Higher education,Married / civil union,With parents,Cooking staff,6,0.41,0.57,0.74
+100381,0,Cash loans,M,0,1,1,125555.1,100000,3530.05,-7208,-135,Commercial associate,Academic degree,Separated,Rented apartment,IT staff,2,0.14,0.69,0.69
+100382,1,Revolving loans,F,0,1,1,80569.03,302945.67,13205.82,-7506,2791,Working,Secondary / special,Married / civil union,Rented apartment,Low skill laborers,4,0.65,0.52,0.54
+100383,0,Revolving loans,M,0,1,2,123498.74,132101.84,4666.26,-9471,1197,Commercial associate,Secondary / special,Single / not married,House / apartment,Low skill laborers,3,0.7,0.68,0.35
+100384,0,Revolving loans,M,0,0,3,194509.6,421956.61,30988.75,-6612,-3759,Pensioner,Academic degree,Married / civil union,House / apartment,Managers,4,0.36,0.38,0.33
+100385,1,Revolving loans,M,1,1,1,98563.77,324357.67,24247.92,-14174,-2366,Commercial associate,Academic degree,Single / not married,Municipal apartment,High skill tech staff,3,0.26,0.31,0.23
+100386,0,Cash loans,F,1,0,3,281012.59,754859.29,34483.69,-7367,-856,Unemployed,Academic degree,Widow,Municipal apartment,Accountants,5,0.89,0.18,0.37
+100387,0,Revolving loans,F,0,0,2,132138.15,492705.84,33706.42,-9268,-4472,Pensioner,Secondary / special,Widow,Rented apartment,Security staff,4,0.82,0.46,0.46
+100388,0,Cash loans,F,1,1,3,50000,100000,3346.3,-12636,-72,Working,Higher education,Married / civil union,With parents,High skill tech staff,5,0.55,0.27,0.31
+100389,1,Cash loans,M,1,1,1,200787.76,680333.65,45348.55,-6232,-1243,Working,Lower secondary,Separated,House / apartment,IT staff,3,0.46,0.34,0.55
+100390,1,Cash loans,F,0,1,3,50000,199833.43,10132.09,-11762,-557,State servant,Secondary / special,Widow,House / apartment,Medicine staff,6,0.61,0.34,0.79
+100391,0,Revolving loans,F,0,1,0,106342.0,222382.89,10908.77,-9204,2786,Pensioner,Academic degree,Single / not married,Municipal apartment,Secretaries,2,0.46,0.3,0.62
+100392,0,Cash loans,M,1,0,3,173772.77,653696.88,33636.05,-12396,-3577,State servant,Higher education,Married / civil union,House / apartment,Low skill laborers,5,0.89,0.53,0.7
+100393,1,Revolving loans,M,1,0,1,148218.56,309476.18,19056.02,-11867,345,Commercial associate,Secondary / special,Widow,House / apartment,Cleaning staff,3,0.32,0.71,0.47
+100394,1,Cash loans,M,1,0,3,113016.63,100000,6436.68,-12148,190,Pensioner,Secondary / special,Separated,With parents,Drivers,4,0.14,0.28,0.56
+100395,0,Cash loans,F,1,1,2,136934.83,199628.07,7977.51,-7506,-483,Commercial associate,Lower secondary,Separated,House / apartment,Low skill laborers,4,0.75,0.46,0.56
+100396,1,Revolving loans,M,0,1,0,116005.53,139093.27,6627.21,-7052,2286,Working,Lower secondary,Single / not married,Municipal apartment,Low skill laborers,3,0.4,0.36,0.55
+100397,1,Revolving loans,M,0,1,2,222312.28,411181.69,24707.95,-14638,-405,Unemployed,Higher education,Widow,House / apartment,Private service staff,5,0.33,0.2,0.23
+100398,1,Cash loans,M,0,0,3,96585.09,100000,6223.88,-7137,1798,Working,Lower secondary,Widow,With parents,Managers,6,0.27,0.72,0.27
+100399,0,Revolving loans,F,0,0,0,129262.02,433870.12,24677.63,-6080,2110,State servant,Academic degree,Widow,Rented apartment,High skill tech staff,2,0.56,0.68,0.78
+100400,1,Revolving loans,M,0,0,4,50000,109473.6,3786.69,-10853,-2109,Pensioner,Lower secondary,Widow,Municipal apartment,Secretaries,5,0.58,0.15,0.28
+100401,0,Revolving loans,M,1,1,0,170589.96,126277.1,6459.67,-11032,-272,Unemployed,Secondary / special,Married / civil union,Municipal apartment,IT staff,1,0.45,0.5,0.6
+100402,0,Revolving loans,F,1,0,4,217716.26,256635.37,10130.03,-8894,-662,Pensioner,Lower secondary,Widow,With parents,Managers,6,0.57,0.07,0.26
+100403,1,Revolving loans,F,0,1,4,116785.49,302135.38,20150.65,-7544,2436,Pensioner,Academic degree,Married / civil union,House / apartment,Secretaries,6,0.43,0.53,0.48
+100404,0,Revolving loans,M,1,0,1,197175.55,567897.49,25290.14,-9740,-3630,Pensioner,Academic degree,Single / not married,With parents,High skill tech staff,2,0.63,0.57,0.79
+100405,1,Revolving loans,F,1,0,3,154071.02,601881.08,28872.84,-7462,2821,Working,Academic degree,Single / not married,Municipal apartment,Medicine staff,6,0.26,0.78,0.28
+100406,0,Cash loans,F,0,1,0,264991.23,1029053.74,62967.55,-8664,-2639,Pensioner,Secondary / special,Widow,Rented apartment,Drivers,2,0.85,0.7,0.92
+100407,0,Revolving loans,F,0,0,2,102196.89,396950.5,13856.33,-10280,-110,State servant,Academic degree,Separated,Rented apartment,Cleaning staff,3,0.46,0.62,0.26
+100408,0,Cash loans,M,1,0,0,94352.93,201248.57,15711.95,-13557,-1361,Unemployed,Secondary / special,Separated,Municipal apartment,IT staff,2,0.16,0.54,0.5
+100409,1,Revolving loans,M,1,1,1,256669.15,734188.12,49167.24,-6868,-771,Working,Secondary / special,Separated,Municipal apartment,Cleaning staff,4,0.78,0.9,0.81
+100410,0,Revolving loans,F,1,1,3,192905.2,650273.47,46875.64,-14957,19,Commercial associate,Secondary / special,Widow,Municipal apartment,Secretaries,6,0.31,0.62,0.38
+100411,0,Revolving loans,F,0,1,4,226176.32,559725.73,17100.17,-10960,-986,Unemployed,Academic degree,Married / civil union,Municipal apartment,Cooking staff,6,0.18,0.75,0.42
+100412,0,Cash loans,M,0,1,2,163527.15,428514.11,16720.08,-14306,-696,Commercial associate,Secondary / special,Married / civil union,Rented apartment,Accountants,3,0.38,0.08,0.36
+100413,1,Cash loans,M,0,0,0,149969.11,271463.2,16712.55,-6482,-2370,Pensioner,Secondary / special,Separated,Municipal apartment,Low skill laborers,3,0.61,0.49,0.76
+100414,1,Revolving loans,M,0,1,1,74442.04,100000,3926.52,-14653,1819,Working,Higher education,Separated,Rented apartment,Cooking staff,4,0.69,0.68,0.82
+100415,0,Revolving loans,M,0,1,4,279066.03,1085120.86,36610.74,-9955,2633,Working,Secondary / special,Separated,House / apartment,Cooking staff,7,0.31,0.74,0.51
+100416,0,Revolving loans,M,1,1,0,208718.19,551749.51,18775.86,-13844,-2784,Pensioner,Academic degree,Widow,With parents,Accountants,1,0.14,0.64,0.44
+100417,1,Cash loans,F,0,1,1,309001.58,552179.75,21911.75,-13152,-3049,Commercial associate,Secondary / special,Married / civil union,House / apartment,Security staff,2,0.45,0.56,0.44
+100418,0,Revolving loans,M,0,0,1,50000,100000,6526.28,-11848,2034,State servant,Higher education,Separated,With parents,Accountants,3,0.33,0.47,0.18
+100419,0,Cash loans,F,0,1,3,165691.32,649954.68,42193.17,-13434,-4826,Working,Lower secondary,Separated,With parents,HR staff,4,0.55,0.35,0.64
+100420,0,Revolving loans,M,0,1,0,114585.01,348367.31,21277.07,-13004,2606,State servant,Lower secondary,Separated,With parents,Cleaning staff,1,0.75,0.7,0.91
+100421,1,Revolving loans,M,0,0,0,77064.91,299058.03,16152.24,-9569,-253,Unemployed,Lower secondary,Married / civil union,Rented apartment,Private service staff,2,0.52,0.23,0.55
+100422,0,Cash loans,M,1,0,4,178925.15,465567.87,22108.18,-7269,-4073,Unemployed,Higher education,Married / civil union,House / apartment,Low skill laborers,5,0.33,0.43,0.28
+100423,0,Revolving loans,F,1,0,4,107119.86,331766.49,22949.4,-11636,-1897,State servant,Lower secondary,Single / not married,Rented apartment,Drivers,5,0.54,0.75,0.29
+100424,1,Cash loans,F,0,1,1,252417.5,989769.83,41119.53,-11157,-4055,Unemployed,Lower secondary,Separated,House / apartment,Accountants,3,0.54,0.32,0.33
+100425,1,Cash loans,F,0,1,3,110343.1,246032.09,18224.1,-9245,2179,Working,Lower secondary,Separated,House / apartment,IT staff,4,0.27,0.33,0.29
+100426,0,Revolving loans,F,1,0,3,148747.26,458977.45,21915.2,-13354,167,State servant,Lower secondary,Married / civil union,With parents,Security staff,6,0.81,0.27,0.45
+100427,1,Revolving loans,M,0,1,2,230670.7,539349.1,29886.09,-12990,-1854,Pensioner,Secondary / special,Single / not married,With parents,Sales staff,3,0.68,0.49,0.35
+100428,1,Revolving loans,M,1,0,3,175255.4,112007.07,8348.14,-14813,-4946,Pensioner,Secondary / special,Separated,With parents,Private service staff,4,0.42,0.35,0.27
+100429,1,Cash loans,F,1,0,3,50000,142614.26,4806.73,-11157,-4686,Pensioner,Secondary / special,Single / not married,House / apartment,Cooking staff,4,0.83,0.88,0.44
+100430,0,Revolving loans,F,0,0,2,182907.93,448504.9,18131.86,-8918,-833,Working,Lower secondary,Widow,Municipal apartment,High skill tech staff,5,0.58,0.81,0.43
+100431,0,Revolving loans,F,1,1,1,111184.38,427737.9,26960.6,-11694,773,Working,Lower secondary,Widow,With parents,High skill tech staff,3,0.7,0.44,0.66
+100432,0,Revolving loans,M,1,1,4,169818.95,112029.54,5868.31,-9625,-3636,Commercial associate,Higher education,Single / not married,House / apartment,Sales staff,5,0.29,0.64,0.31
+100433,0,Revolving loans,M,0,0,0,152754.3,344498.77,23965.81,-6692,-2531,Working,Academic degree,Single / not married,Rented apartment,HR staff,1,0.7,0.57,0.78
+100434,0,Cash loans,F,0,1,2,64442.57,147782.59,4606.62,-10490,-4184,Unemployed,Academic degree,Married / civil union,Rented apartment,High skill tech staff,5,0.63,0.64,0.48
+100435,0,Cash loans,F,0,1,1,129961.13,320107.12,12927.24,-14025,-4313,State servant,Academic degree,Separated,With parents,High skill tech staff,3,0.58,0.68,0.68
+100436,0,Cash loans,M,1,0,0,128683.91,281880.45,16275.88,-7334,-1513,State servant,Lower secondary,Separated,Municipal apartment,Cleaning staff,2,0.66,0.32,0.6
+100437,1,Cash loans,F,0,0,3,93995.84,374728.79,28626.31,-8690,1794,Unemployed,Lower secondary,Widow,Rented apartment,High skill tech staff,4,0.57,0.34,0.55
+100438,0,Revolving loans,M,0,0,0,251603.11,480924.05,20553.48,-14864,-3341,Pensioner,Higher education,Married / civil union,With parents,Managers,3,0.35,0.21,0.34
+100439,1,Revolving loans,M,1,1,3,193641.45,704048.71,22958.65,-14383,-1516,Commercial associate,Lower secondary,Married / civil union,Municipal apartment,Medicine staff,5,0.7,0.79,0.53
+100440,1,Revolving loans,F,1,0,3,106146.39,100000,4828.44,-13636,-2166,Unemployed,Lower secondary,Married / civil union,House / apartment,Secretaries,4,0.66,0.47,0.76
+100441,1,Revolving loans,M,1,0,2,55865.04,116796.05,4518.67,-14938,-4688,Commercial associate,Academic degree,Married / civil union,House / apartment,Drivers,3,0.38,0.45,0.26
+100442,1,Cash loans,M,1,0,2,167461.6,377682.82,25096.21,-7375,-4636,Pensioner,Secondary / special,Single / not married,Rented apartment,Cleaning staff,5,0.33,0.3,0.47
+100443,0,Revolving loans,F,1,0,1,141520.39,485496.91,30157.06,-9130,1046,Working,Academic degree,Single / not married,With parents,IT staff,3,0.64,0.78,0.44
+100444,0,Cash loans,F,0,1,4,97992.57,270560.22,17343.15,-10729,731,Working,Higher education,Widow,Municipal apartment,High skill tech staff,7,0.85,0.36,0.41
+100445,0,Revolving loans,M,0,0,3,186941.76,327711.87,12498.04,-14958,-4822,Unemployed,Higher education,Single / not married,With parents,Medicine staff,6,0.58,0.44,0.67
+100446,0,Cash loans,F,0,1,2,124202.95,479385.69,37639.57,-11067,-3842,Working,Academic degree,Widow,With parents,Cleaning staff,4,0.46,0.59,0.72
+100447,0,Revolving loans,F,1,0,1,203593.82,645534.23,22458.94,-8105,2661,State servant,Academic degree,Married / civil union,With parents,Managers,3,0.42,0.63,0.66
+100448,0,Revolving loans,M,0,1,1,54438.0,100000,4509.69,-7521,357,Pensioner,Academic degree,Widow,House / apartment,Cleaning staff,3,0.27,0.55,0.37
+100449,0,Revolving loans,F,0,1,3,114743.08,100000,5124.91,-7899,1573,Unemployed,Secondary / special,Married / civil union,Municipal apartment,Cleaning staff,6,0.44,0.42,0.38
+100450,1,Cash loans,F,1,1,2,85681.42,309488.21,19906.09,-10134,529,Unemployed,Academic degree,Single / not married,Municipal apartment,Sales staff,3,0.63,0.44,0.37
+100451,0,Cash loans,F,1,0,0,122502.65,480081.98,29712.62,-7656,942,Commercial associate,Lower secondary,Single / not married,Rented apartment,Private service staff,2,0.86,0.89,0.59
+100452,0,Revolving loans,F,1,1,1,178269.9,466385.98,35206.23,-10668,-1665,Commercial associate,Secondary / special,Separated,Rented apartment,High skill tech staff,2,0.66,0.76,0.48
+100453,0,Revolving loans,F,0,1,3,76774.33,237923.57,9643.49,-8785,-2906,State servant,Academic degree,Single / not married,Municipal apartment,Private service staff,4,0.83,0.74,0.72
+100454,0,Revolving loans,M,1,1,0,176683.95,463782.32,33616.52,-7588,-3269,Commercial associate,Lower secondary,Widow,With parents,Secretaries,3,0.43,0.45,0.65
+100455,0,Cash loans,F,0,1,3,129365.28,215935.49,11488.0,-8822,-4195,State servant,Higher education,Single / not married,Municipal apartment,High skill tech staff,6,0.73,0.62,0.78
+100456,0,Revolving loans,F,0,1,0,233840.15,312785.43,16767.94,-9273,-2600,Unemployed,Secondary / special,Married / civil union,Municipal apartment,Cleaning staff,1,0.36,0.25,0.52
+100457,0,Cash loans,F,0,1,4,268992.0,914324.54,60580.88,-6653,870,Working,Academic degree,Widow,With parents,HR staff,7,0.6,0.18,0.24
+100458,1,Cash loans,M,0,1,2,196927.52,301992.73,15774.17,-13378,-346,Pensioner,Secondary / special,Separated,Rented apartment,IT staff,5,0.51,0.76,0.62
+100459,0,Cash loans,M,1,1,4,207885.05,450987.94,33824.19,-11639,-191,Commercial associate,Secondary / special,Single / not married,With parents,High skill tech staff,6,0.32,0.42,0.55
+100460,0,Revolving loans,F,0,0,4,88538.9,167756.36,5861.74,-11398,-2777,Working,Higher education,Separated,House / apartment,Drivers,7,0.8,0.51,0.21
+100461,0,Revolving loans,M,1,1,0,70698.86,150231.51,8540.16,-6836,192,State servant,Lower secondary,Widow,With parents,High skill tech staff,1,0.62,0.68,0.63
+100462,1,Cash loans,M,0,1,1,102644.72,236052.14,18310.99,-10909,-641,State servant,Lower secondary,Separated,Municipal apartment,Accountants,3,0.48,0.65,0.41
+100463,1,Revolving loans,F,1,0,1,193202.82,550938.19,25446.88,-9144,1437,Commercial associate,Secondary / special,Widow,Rented apartment,Medicine staff,2,0.22,0.38,0.29
+100464,1,Revolving loans,M,1,1,1,128852.49,504128.94,34458.44,-6319,-3344,Pensioner,Lower secondary,Widow,House / apartment,Accountants,4,0.53,0.51,0.32
+100465,1,Cash loans,F,1,1,0,102159.2,207734.13,9184.29,-13730,-579,Pensioner,Higher education,Separated,Municipal apartment,Drivers,2,0.76,0.78,0.55
+100466,0,Revolving loans,M,0,0,0,222639.6,370815.69,23688.98,-10243,1124,State servant,Secondary / special,Single / not married,House / apartment,Low skill laborers,1,0.36,0.64,0.13
+100467,1,Cash loans,F,0,1,3,50000,156583.79,10703.4,-13060,-1185,State servant,Academic degree,Single / not married,Rented apartment,IT staff,6,0.24,0.23,0.25
+100468,0,Revolving loans,M,1,0,0,50000,100000,6864.96,-9377,-4174,Commercial associate,Higher education,Widow,House / apartment,Cleaning staff,3,0.29,0.36,0.35
+100469,0,Cash loans,F,1,1,4,188116.72,482662.38,17488.05,-8868,-263,Working,Academic degree,Separated,With parents,IT staff,5,0.43,0.72,0.57
+100470,1,Cash loans,M,1,0,2,263982.22,726620.78,35956.33,-13722,-2525,Pensioner,Secondary / special,Widow,With parents,Security staff,3,0.5,0.36,0.76
+100471,0,Revolving loans,F,1,0,3,56097.95,150157.23,4718.53,-6423,2281,State servant,Secondary / special,Separated,Municipal apartment,Cleaning staff,4,0.67,0.79,0.52
+100472,1,Revolving loans,M,1,1,0,246069.63,344255.27,15885.25,-14847,26,Commercial associate,Lower secondary,Single / not married,Rented apartment,Cooking staff,2,0.3,0.48,0.54
+100473,0,Revolving loans,F,0,1,1,219936.37,764854.99,51548.78,-12308,1506,Unemployed,Academic degree,Widow,House / apartment,Medicine staff,2,0.23,0.7,0.34
+100474,1,Cash loans,M,0,1,4,240420.4,762479.51,32895.78,-11987,-4792,State servant,Higher education,Married / civil union,Rented apartment,Private service staff,5,0.11,0.26,0.11
+100475,1,Revolving loans,F,0,0,4,231421.69,419024.25,14668.74,-8713,2036,Working,Academic degree,Single / not married,With parents,Cleaning staff,5,0.87,0.75,0.9
+100476,0,Revolving loans,M,1,0,3,121930.66,387260.94,27243.58,-9972,-3694,Commercial associate,Lower secondary,Married / civil union,Municipal apartment,Managers,5,0.46,0.29,0.29
+100477,0,Revolving loans,F,0,0,2,302458.02,512611.96,22352.52,-6671,2300,Unemployed,Lower secondary,Separated,Rented apartment,Cooking staff,3,0.86,0.87,0.64
+100478,1,Cash loans,M,0,1,3,129759.21,178986.19,8561.46,-6211,-349,State servant,Academic degree,Widow,House / apartment,High skill tech staff,4,0.49,0.4,0.49
+100479,1,Cash loans,F,1,1,3,77623.7,273385.95,8711.12,-12532,145,Pensioner,Higher education,Separated,Municipal apartment,HR staff,6,0.34,0.41,0.43
+100480,0,Revolving loans,M,0,1,4,178526.96,598804.97,43255.27,-7456,49,Working,Secondary / special,Single / not married,Rented apartment,Private service staff,7,0.76,0.47,0.44
+100481,1,Cash loans,F,0,0,4,50000,119194.51,5947.63,-7244,-4259,State servant,Higher education,Separated,House / apartment,Cleaning staff,7,0.3,0.57,0.66
+100482,0,Revolving loans,F,1,1,1,106335.95,311859.62,12770.26,-9700,1648,Unemployed,Higher education,Separated,Rented apartment,Accountants,2,0.15,0.67,0.4
+100483,1,Cash loans,M,1,0,4,242118.06,956825.22,40516.54,-14819,-4209,Unemployed,Academic degree,Single / not married,House / apartment,Medicine staff,7,0.2,0.38,0.3
+100484,0,Revolving loans,M,0,1,0,253818.59,975061.83,42712.11,-10128,961,State servant,Secondary / special,Married / civil union,House / apartment,Private service staff,3,0.64,0.58,0.72
+100485,1,Cash loans,F,0,1,3,174382.11,685188.61,47063.35,-8938,-4759,Commercial associate,Secondary / special,Separated,House / apartment,Low skill laborers,6,0.38,0.6,0.62
+100486,0,Cash loans,M,1,0,4,189072.02,463216.86,29708.65,-7564,2893,State servant,Secondary / special,Married / civil union,Rented apartment,Security staff,5,0.36,0.84,0.77
+100487,0,Cash loans,M,1,1,2,111812.97,121411.95,4247.73,-9164,23,State servant,Higher education,Separated,Rented apartment,Managers,4,0.83,0.75,0.62
+100488,0,Cash loans,F,0,0,0,64665.63,100000,7721.24,-12984,-1912,Working,Lower secondary,Widow,With parents,High skill tech staff,2,0.63,0.55,0.31
+100489,0,Cash loans,M,1,0,2,273745.52,973977.86,65185.42,-14584,-833,Commercial associate,Higher education,Separated,Municipal apartment,Sales staff,5,0.59,0.14,0.06
+100490,0,Cash loans,F,0,1,4,192311.33,499169.19,30493.34,-10230,-1537,Pensioner,Higher education,Married / civil union,House / apartment,Accountants,7,0.87,0.64,0.35
+100491,0,Cash loans,M,0,0,3,156646.1,372706.33,14300.12,-10202,857,Commercial associate,Higher education,Married / civil union,House / apartment,Drivers,5,0.63,0.25,0.84
+100492,0,Revolving loans,M,1,0,4,124895.96,224582.49,15028.46,-13242,-4664,Pensioner,Lower secondary,Single / not married,With parents,Private service staff,5,0.79,0.44,0.38
+100493,1,Revolving loans,F,1,1,2,249682.73,483069.82,27396.67,-8783,-2365,Commercial associate,Higher education,Widow,Rented apartment,High skill tech staff,3,0.19,0.25,0.17
+100494,1,Revolving loans,F,1,1,2,187104.8,510504.51,27545.01,-8509,2204,Commercial associate,Academic degree,Widow,Municipal apartment,High skill tech staff,3,0.2,0.24,0.34
+100495,1,Cash loans,F,1,0,4,131029.6,308545.71,13051.59,-9128,2766,Commercial associate,Secondary / special,Single / not married,Municipal apartment,Low skill laborers,6,0.61,0.34,0.66
+100496,1,Cash loans,M,0,1,1,117750.35,171517.51,11542.89,-8553,-290,Working,Academic degree,Single / not married,Municipal apartment,IT staff,2,0.3,0.67,0.52
+100497,1,Cash loans,F,0,0,0,94224.2,369023.12,23319.85,-8402,-4205,Pensioner,Lower secondary,Widow,With parents,Accountants,1,0.26,0.21,0.03
+100498,1,Revolving loans,M,1,0,0,50000,163419.32,10368.17,-11254,1494,Pensioner,Secondary / special,Married / civil union,Rented apartment,Cooking staff,2,0.67,0.32,0.18
+100499,1,Cash loans,M,1,0,4,81805.06,239975.87,10442.35,-12146,1579,Pensioner,Higher education,Married / civil union,House / apartment,Sales staff,6,0.57,0.46,0.46
+100500,1,Revolving loans,M,1,0,3,162955.17,501537.28,23600.71,-7153,129,Commercial associate,Higher education,Widow,Rented apartment,IT staff,6,0.79,0.7,0.07
+100501,0,Cash loans,F,1,1,1,166462.05,190973.17,5789.48,-8881,-2844,Pensioner,Secondary / special,Separated,Rented apartment,HR staff,4,0.64,0.2,0.46
+100502,0,Revolving loans,F,1,1,3,131329.41,100000,5469.62,-6989,1698,Commercial associate,Lower secondary,Single / not married,With parents,Low skill laborers,4,0.72,0.56,0.6
+100503,0,Cash loans,M,0,0,3,123903.62,443563.96,20500.81,-12606,2365,Working,Academic degree,Widow,With parents,Security staff,5,0.55,0.82,0.52
+100504,0,Revolving loans,M,0,1,4,83027.35,100000,4961.16,-10972,1994,Unemployed,Lower secondary,Single / not married,Rented apartment,Low skill laborers,6,0.35,0.6,0.63
+100505,0,Revolving loans,F,0,1,2,220287.23,431653.26,17470.22,-11344,2455,State servant,Secondary / special,Widow,With parents,Low skill laborers,5,0.51,0.45,0.2
+100506,1,Cash loans,F,0,0,1,179437.82,422095.98,22427.84,-10358,-2055,State servant,Lower secondary,Single / not married,Municipal apartment,Cooking staff,3,0.52,0.49,0.65
+100507,1,Revolving loans,F,1,0,3,185427.87,225265.2,10093.05,-6472,1245,Unemployed,Academic degree,Married / civil union,Municipal apartment,Medicine staff,4,0.4,0.52,0.38
+100508,1,Cash loans,F,1,0,4,102938.42,115599.28,7011.57,-6565,-2346,Commercial associate,Academic degree,Married / civil union,Municipal apartment,Medicine staff,7,0.21,0.75,0.67
+100509,0,Revolving loans,M,0,0,2,119898.6,100000,4036.27,-8606,-92,State servant,Secondary / special,Single / not married,With parents,Low skill laborers,3,0.24,0.17,0.22
+100510,1,Cash loans,F,1,0,1,67066.67,115544.84,3932.15,-12031,1791,Commercial associate,Academic degree,Single / not married,With parents,Accountants,3,0.18,0.41,0.43
+100511,0,Revolving loans,F,1,1,1,188828.36,672194.99,26892.59,-10892,523,State servant,Higher education,Widow,Municipal apartment,Private service staff,4,0.95,0.82,0.8
+100512,0,Cash loans,F,1,0,0,50000,164125.56,10397.55,-10071,-3211,Unemployed,Secondary / special,Married / civil union,Rented apartment,Managers,1,0.25,0.35,0.3
+100513,0,Cash loans,M,0,1,3,282411.0,932506.59,37517.82,-6497,2635,Unemployed,Academic degree,Single / not married,Rented apartment,Sales staff,4,0.46,0.52,0.45
+100514,0,Cash loans,F,1,1,0,87819.85,339965.02,13395.81,-13339,326,Pensioner,Academic degree,Separated,Municipal apartment,High skill tech staff,3,0.71,0.14,0.36
+100515,0,Cash loans,F,0,1,0,212742.5,768639.02,49028.05,-12681,-1464,Working,Secondary / special,Married / civil union,House / apartment,Security staff,3,0.29,0.53,0.24
+100516,0,Cash loans,M,0,1,2,233710.96,660520.77,25255.07,-9715,1453,Pensioner,Secondary / special,Separated,With parents,HR staff,4,0.09,0.3,0.4
+100517,0,Cash loans,F,0,1,0,189826.63,159085.21,11251.26,-6385,-2439,Unemployed,Lower secondary,Married / civil union,Rented apartment,IT staff,1,0.66,0.39,0.53
+100518,0,Revolving loans,M,1,0,4,72116.66,237437.69,16061.69,-7605,-191,Working,Higher education,Married / civil union,Municipal apartment,Accountants,6,0.51,0.84,0.46
+100519,1,Revolving loans,M,1,0,4,50000,100000,7624.9,-6798,-4037,Pensioner,Lower secondary,Widow,With parents,IT staff,6,0.31,0.79,0.29
+100520,1,Cash loans,F,1,1,4,174807.38,516159.01,39012.72,-7663,-3919,Commercial associate,Higher education,Single / not married,House / apartment,Sales staff,7,0.12,0.66,0.52
+100521,0,Cash loans,F,1,1,0,56490.01,116446.1,9295.43,-12116,-1086,Pensioner,Secondary / special,Single / not married,Municipal apartment,Private service staff,3,0.49,0.8,0.2
+100522,0,Cash loans,M,1,1,4,105695.3,253130.73,17768.13,-8393,2027,Commercial associate,Higher education,Single / not married,Municipal apartment,Low skill laborers,5,0.42,0.62,0.36
+100523,1,Revolving loans,F,1,1,3,78620.84,279225.78,17247.0,-9954,-2644,State servant,Higher education,Widow,Rented apartment,Accountants,4,0.48,0.41,0.56
+100524,0,Revolving loans,M,1,1,2,145713.01,570217.74,32295.4,-7031,-2803,Pensioner,Academic degree,Single / not married,House / apartment,IT staff,4,0.57,0.43,0.45
+100525,1,Cash loans,F,1,0,3,136418.11,353794.83,21819.31,-11527,304,Commercial associate,Academic degree,Widow,Rented apartment,Accountants,5,0.37,0.38,0.33
+100526,0,Revolving loans,F,0,0,2,200951.43,186926.64,12712.17,-6892,-3363,Working,Lower secondary,Single / not married,With parents,HR staff,3,0.51,0.96,0.72
+100527,1,Revolving loans,F,0,1,0,85038.77,100000,3801.98,-10419,-3980,State servant,Academic degree,Married / civil union,Rented apartment,Drivers,1,0.4,0.15,0.45
+100528,1,Revolving loans,M,0,0,3,208536.71,463018.09,32170.21,-14584,-4831,Commercial associate,Secondary / special,Widow,Rented apartment,High skill tech staff,6,0.36,0.37,0.33
+100529,1,Cash loans,F,0,1,2,50000,184107.91,6346.76,-10176,-2796,Commercial associate,Higher education,Separated,With parents,Secretaries,4,0.36,0.41,0.73
+100530,1,Cash loans,M,1,1,0,156379.8,554918.5,21808.85,-12708,-736,Pensioner,Higher education,Single / not married,With parents,HR staff,1,0.68,0.6,0.75
+100531,0,Cash loans,F,0,0,1,223402.1,513011.8,15921.78,-14265,-1774,Unemployed,Academic degree,Widow,Municipal apartment,Private service staff,2,0.73,0.88,0.73
+100532,0,Cash loans,M,1,0,4,55869.03,106913.46,6014.15,-14514,-40,Commercial associate,Higher education,Separated,Municipal apartment,Drivers,7,0.74,0.51,0.31
+100533,0,Revolving loans,M,1,1,3,272790.65,377875.02,18879.38,-13621,-3324,Pensioner,Lower secondary,Single / not married,House / apartment,Accountants,4,0.88,0.65,0.62
+100534,1,Cash loans,M,1,1,4,61379.61,183455.54,7976.73,-6404,166,Commercial associate,Lower secondary,Single / not married,With parents,HR staff,6,0.2,0.91,0.49
+100535,1,Revolving loans,F,1,1,1,207417.93,390028.25,12517.79,-10962,-3106,State servant,Lower secondary,Separated,With parents,Medicine staff,3,0.34,0.14,0.1
+100536,1,Cash loans,F,0,0,1,188073.68,565720.82,31681.73,-10570,1375,State servant,Lower secondary,Widow,Municipal apartment,Cooking staff,2,0.67,0.3,0.29
+100537,1,Cash loans,F,0,1,0,134164.28,359654.67,27846.11,-7086,2586,State servant,Academic degree,Married / civil union,House / apartment,Accountants,2,0.47,0.48,0.45
+100538,0,Cash loans,F,1,0,1,199708.41,615302.75,23075.28,-13021,-4244,State servant,Lower secondary,Single / not married,House / apartment,Cleaning staff,2,0.6,0.76,0.62
+100539,1,Cash loans,M,0,1,3,143698.67,423882.28,14753.65,-9666,-4738,Pensioner,Higher education,Married / civil union,Rented apartment,HR staff,5,0.39,0.38,0.55
+100540,0,Revolving loans,F,1,0,4,250335.59,405500.19,17015.88,-13890,-3996,Unemployed,Academic degree,Separated,With parents,Sales staff,7,0.73,0.42,0.37
+100541,1,Cash loans,F,1,1,1,177301.82,146496.9,10807.96,-11481,-29,State servant,Higher education,Widow,House / apartment,Cleaning staff,2,0.43,0.06,0.19
+100542,0,Revolving loans,F,1,0,0,195626.12,502448.68,22363.82,-13478,-2288,State servant,Higher education,Married / civil union,With parents,Secretaries,2,0.57,0.15,0.1
+100543,0,Revolving loans,F,0,0,4,90791.43,350021.95,24543.38,-10483,2368,Working,Academic degree,Married / civil union,Rented apartment,Medicine staff,6,0.12,0.58,0.53
+100544,1,Revolving loans,M,0,1,2,194758.19,424480.51,14845.36,-10230,-2606,Unemployed,Secondary / special,Widow,House / apartment,Cleaning staff,4,0.35,0.65,0.19
+100545,0,Cash loans,F,1,1,2,144836.94,472385.69,22514.85,-12355,-533,Working,Academic degree,Single / not married,With parents,Drivers,5,0.07,0.34,0.6
+100546,1,Cash loans,M,0,1,1,178729.03,391770.62,23238.94,-7096,1100,Commercial associate,Lower secondary,Married / civil union,House / apartment,HR staff,4,0.54,0.67,0.47
+100547,1,Cash loans,M,0,1,1,125235.1,422991.08,18896.1,-7746,-2421,Working,Secondary / special,Separated,Rented apartment,High skill tech staff,4,0.37,0.31,0.58
+100548,1,Revolving loans,F,0,0,2,205248.53,233812.22,9496.41,-7291,-2735,Working,Secondary / special,Married / civil union,House / apartment,Cleaning staff,5,0.68,0.31,0.35
+100549,0,Revolving loans,M,1,0,1,176092.11,153925.33,5839.98,-10056,-2961,Working,Academic degree,Single / not married,Municipal apartment,Drivers,4,0.94,0.87,0.88
+100550,1,Cash loans,M,0,0,2,83489.85,127277.95,4685.17,-12742,-2644,Working,Academic degree,Single / not married,With parents,Security staff,3,0.34,0.12,0.37
+100551,1,Cash loans,F,1,1,1,59273.04,178431.29,12757.58,-6225,-2204,Commercial associate,Secondary / special,Separated,House / apartment,Cooking staff,3,0.09,0.19,0.24
+100552,0,Revolving loans,F,1,1,2,104077.26,100000,7444.68,-6976,-706,Pensioner,Academic degree,Single / not married,Municipal apartment,Managers,3,0.66,0.35,0.49
+100553,0,Cash loans,F,0,0,0,157891.55,199899.4,15477.36,-14350,-3815,Working,Lower secondary,Widow,Rented apartment,Sales staff,2,0.68,0.72,0.42
+100554,1,Revolving loans,F,0,1,2,230362.18,266252.96,17740.69,-12960,1591,State servant,Secondary / special,Married / civil union,House / apartment,Low skill laborers,5,0.23,0.55,0.46
+100555,0,Cash loans,M,1,1,3,166465.18,202647.67,10257.62,-7189,-1404,State servant,Higher education,Married / civil union,Municipal apartment,Secretaries,6,0.22,0.24,0.6
+100556,0,Cash loans,M,0,0,1,289522.37,951089.08,70735.74,-7639,-1263,Unemployed,Academic degree,Married / civil union,Municipal apartment,Drivers,4,0.22,0.23,0.29
+100557,1,Cash loans,M,1,1,1,260400.56,790111.71,38187.77,-10908,-1463,Commercial associate,Higher education,Single / not married,Municipal apartment,Cooking staff,4,0.21,0.33,0.35
+100558,1,Cash loans,M,0,0,0,172133.81,590146.14,30837.37,-11172,-3246,Working,Secondary / special,Single / not married,House / apartment,High skill tech staff,1,0.59,0.81,0.6
+100559,0,Cash loans,M,0,1,1,195322.76,472910.77,33768.43,-6721,1965,Pensioner,Secondary / special,Married / civil union,With parents,Cleaning staff,2,0.5,0.48,0.23
+100560,0,Revolving loans,F,0,0,4,180195.85,152069.45,10520.54,-14831,-4532,Pensioner,Lower secondary,Married / civil union,Rented apartment,Cooking staff,5,0.49,0.56,0.24
+100561,1,Cash loans,F,0,0,2,71515.49,100000,3244.27,-10280,-1905,Commercial associate,Secondary / special,Widow,With parents,Drivers,5,0.44,0.6,0.49
+100562,0,Cash loans,F,1,0,4,146474.85,512089.2,29656.68,-11817,-4861,State servant,Higher education,Widow,With parents,Private service staff,7,0.8,0.83,0.63
+100563,1,Revolving loans,M,1,0,1,107876.63,308041.64,11420.66,-12554,-2583,Commercial associate,Lower secondary,Widow,With parents,High skill tech staff,4,0.38,0.3,0.37
+100564,0,Cash loans,F,0,0,1,180722.37,326714.84,14548.81,-6693,1460,Unemployed,Lower secondary,Single / not married,Municipal apartment,Low skill laborers,4,0.34,0.32,0.34
+100565,0,Cash loans,M,0,0,1,248988.73,157209.85,10115.1,-6942,-2614,State servant,Secondary / special,Single / not married,Municipal apartment,Drivers,2,0.37,0.31,0.33
+100566,0,Revolving loans,F,0,0,0,190297.49,524098.08,41913.27,-6642,2002,State servant,Secondary / special,Single / not married,Municipal apartment,High skill tech staff,3,0.31,0.5,0.93
+100567,1,Revolving loans,M,0,1,3,133999.65,200030.94,15792.46,-7961,2437,State servant,Academic degree,Separated,House / apartment,Low skill laborers,4,0.74,0.69,0.6
+100568,1,Revolving loans,M,1,0,4,97593.58,389326.67,15470.01,-8583,-31,Commercial associate,Academic degree,Widow,Municipal apartment,HR staff,7,0.63,0.81,0.71
+100569,1,Cash loans,F,1,1,1,118784.86,369682.25,18974.24,-6294,2732,State servant,Higher education,Single / not married,Rented apartment,Security staff,2,0.44,0.19,0.15
+100570,0,Cash loans,F,0,1,1,146188.2,100000,4210.5,-6081,-1335,Unemployed,Higher education,Married / civil union,Municipal apartment,Security staff,3,0.25,0.16,0.15
+100571,1,Cash loans,F,0,0,3,209486.56,622503.09,38090.2,-12893,-309,Pensioner,Secondary / special,Single / not married,With parents,Security staff,6,0.34,0.56,0.52
+100572,0,Revolving loans,M,0,0,0,251458.81,808928.09,41654.72,-6897,731,Unemployed,Secondary / special,Separated,Municipal apartment,Medicine staff,3,0.55,0.42,0.61
+100573,0,Cash loans,M,1,1,1,217484.3,573076.48,26972.98,-14998,1423,Working,Lower secondary,Single / not married,Rented apartment,Cooking staff,3,0.6,0.64,0.64
+100574,0,Cash loans,M,0,1,0,234186.77,314302.72,21942.79,-11091,-2773,State servant,Secondary / special,Separated,House / apartment,Security staff,1,0.51,0.63,0.67
+100575,0,Revolving loans,M,0,1,1,252636.55,174352.66,8785.55,-8903,-726,Working,Secondary / special,Widow,Municipal apartment,Cooking staff,4,0.55,0.36,0.18
+100576,1,Revolving loans,M,0,1,0,200812.23,790585.41,46068.26,-7094,-2842,Pensioner,Lower secondary,Single / not married,Municipal apartment,Cleaning staff,2,0.3,0.12,0.25
+100577,1,Cash loans,M,1,1,4,217237.19,253375.72,13270.42,-14932,-2833,State servant,Higher education,Single / not married,House / apartment,Sales staff,5,0.55,0.22,0.17
+100578,0,Cash loans,M,1,1,1,139970.43,383059.69,28311.59,-14785,-4162,Working,Lower secondary,Single / not married,Municipal apartment,IT staff,3,0.5,0.39,0.15
+100579,0,Cash loans,F,1,0,0,170699.85,515025.38,26490.05,-7949,735,Unemployed,Academic degree,Married / civil union,Rented apartment,Cooking staff,2,0.66,0.44,0.86
+100580,0,Cash loans,M,1,0,1,59027.22,180842.49,10152.84,-8854,-1313,State servant,Higher education,Widow,Rented apartment,Private service staff,3,0.39,0.42,0.4
+100581,1,Revolving loans,F,1,1,0,114892.63,300971.78,21762.3,-14391,-4460,State servant,Higher education,Widow,Municipal apartment,IT staff,2,0.23,0.37,0.32
+100582,1,Revolving loans,M,0,0,0,102704.72,352242.02,12847.81,-14456,-954,Pensioner,Lower secondary,Single / not married,Rented apartment,Secretaries,3,0.31,0.17,0.62
+100583,0,Revolving loans,M,1,0,4,148762.76,279094.82,16656.31,-9213,-265,State servant,Lower secondary,Widow,With parents,High skill tech staff,6,0.31,0.78,0.54
+100584,0,Revolving loans,F,0,0,2,313310.12,1218838.38,47038.46,-9631,-3180,Pensioner,Lower secondary,Married / civil union,House / apartment,Secretaries,5,0.79,0.89,0.88
+100585,0,Cash loans,F,1,1,0,70006.68,100000,5607.71,-11465,-2796,Working,Secondary / special,Separated,With parents,IT staff,1,0.62,0.48,0.81
+100586,0,Revolving loans,F,1,0,1,159484.48,527628.69,23307.44,-7427,-2201,Unemployed,Academic degree,Widow,Municipal apartment,Security staff,3,0.28,0.44,0.26
+100587,0,Cash loans,M,0,1,4,190366.55,320313.95,15011.28,-10581,-2219,Unemployed,Higher education,Single / not married,House / apartment,Drivers,6,0.46,0.19,0.77
+100588,0,Revolving loans,M,1,0,2,220863.02,788657.92,58482.3,-7896,2114,Commercial associate,Academic degree,Widow,Rented apartment,Medicine staff,3,0.56,0.58,0.57
+100589,0,Cash loans,M,0,1,1,149281.29,516643.33,40938.56,-8747,-2642,Unemployed,Academic degree,Single / not married,With parents,IT staff,2,0.7,0.79,0.49
+100590,0,Revolving loans,F,0,0,0,113104.41,193128.59,10936.03,-13727,784,Commercial associate,Secondary / special,Single / not married,Municipal apartment,Accountants,3,0.53,0.43,0.73
+100591,0,Cash loans,M,0,0,4,184890.81,231620.08,12077.81,-9559,369,Unemployed,Lower secondary,Single / not married,With parents,High skill tech staff,5,0.33,0.31,0.49
+100592,0,Revolving loans,M,0,0,3,219064.98,345731.63,17595.59,-14013,-1207,Commercial associate,Secondary / special,Single / not married,House / apartment,High skill tech staff,4,0.41,0.37,0.67
+100593,0,Revolving loans,F,1,0,2,213983.16,501683.57,27534.93,-7843,799,Unemployed,Lower secondary,Single / not married,With parents,Medicine staff,3,0.8,0.58,0.6
+100594,0,Revolving loans,M,0,1,2,104169.13,389077.85,27210.01,-6662,-2722,Pensioner,Academic degree,Separated,With parents,Sales staff,3,0.61,0.38,0.74
+100595,0,Cash loans,M,0,1,0,152298.4,297674.15,15927.0,-9447,-906,Commercial associate,Secondary / special,Single / not married,With parents,Sales staff,3,0.31,0.2,0.7
+100596,1,Revolving loans,M,0,0,4,156555.78,473713.9,24786.87,-11618,2581,Unemployed,Secondary / special,Widow,With parents,High skill tech staff,6,0.93,0.62,0.46
+100597,1,Revolving loans,M,1,1,4,94786.76,100000,5981.62,-12153,-210,State servant,Lower secondary,Separated,Municipal apartment,Security staff,5,0.36,0.6,0.53
+100598,1,Revolving loans,M,1,0,1,121239.88,115925.64,8383.41,-10249,2275,Pensioner,Higher education,Separated,House / apartment,High skill tech staff,2,0.43,0.42,0.24
+100599,0,Revolving loans,F,1,0,2,189350.67,676939.08,41690.47,-6124,819,Pensioner,Lower secondary,Widow,House / apartment,Managers,3,0.42,0.6,0.53
+100600,1,Cash loans,M,1,0,0,138006.24,190289.68,9839.74,-7811,-3407,Commercial associate,Secondary / special,Single / not married,House / apartment,Cooking staff,3,0.11,0.33,0.25
+100601,0,Cash loans,M,0,1,2,151712.29,197553.91,6713.94,-6783,-2643,Pensioner,Higher education,Widow,With parents,Secretaries,5,0.59,0.22,0.5
+100602,0,Cash loans,M,1,0,1,227917.11,862801.06,65657.83,-13167,-1422,State servant,Secondary / special,Separated,House / apartment,High skill tech staff,2,0.39,0.14,0.18
+100603,0,Revolving loans,F,0,0,2,175819.48,570640.05,18326.02,-14222,-1235,Pensioner,Academic degree,Separated,House / apartment,Cleaning staff,5,0.69,0.79,0.72
+100604,0,Cash loans,M,0,1,1,149591.96,214157.26,8922.85,-8854,-1421,Working,Higher education,Married / civil union,Rented apartment,Accountants,2,0.54,0.87,0.49
+100605,1,Cash loans,F,1,1,4,221767.45,866298.68,29613.91,-12051,1151,State servant,Higher education,Single / not married,House / apartment,Cleaning staff,7,0.2,0.38,0.43
+100606,1,Revolving loans,M,0,0,4,99180.35,356260.26,19985.24,-9819,-1393,State servant,Academic degree,Separated,With parents,Low skill laborers,6,0.4,0.21,0.07
+100607,0,Cash loans,F,1,1,2,72790.64,154444.04,10441.63,-13817,-4591,Working,Academic degree,Widow,With parents,Security staff,3,0.65,0.36,0.53
+100608,0,Revolving loans,F,0,0,3,119605.09,430181.98,32827.77,-10637,-1918,State servant,Higher education,Separated,Municipal apartment,Private service staff,6,0.29,0.4,0.31
+100609,1,Revolving loans,M,0,0,4,152800.06,309523.85,24529.96,-12474,1167,Commercial associate,Academic degree,Married / civil union,Rented apartment,Managers,6,0.78,0.1,0.44
+100610,1,Cash loans,F,1,0,0,170083.02,111109.79,4747.24,-14372,-2289,State servant,Higher education,Separated,House / apartment,Private service staff,1,0.17,0.2,0.63
+100611,0,Revolving loans,F,1,1,3,154422.48,293783.54,21054.41,-8383,-3324,State servant,Lower secondary,Married / civil union,Rented apartment,High skill tech staff,5,0.66,0.45,0.32
+100612,0,Revolving loans,M,1,1,1,147097.09,577523.27,40529.98,-6807,-1137,Pensioner,Academic degree,Single / not married,House / apartment,Private service staff,4,0.34,0.9,0.36
+100613,1,Revolving loans,F,1,1,4,105608.23,192887.12,5860.67,-6405,335,Commercial associate,Academic degree,Separated,House / apartment,Low skill laborers,6,0.84,0.22,0.51
+100614,0,Revolving loans,M,0,0,4,233645.84,896141.54,61296.32,-9616,-852,Commercial associate,Higher education,Single / not married,House / apartment,Managers,5,0.36,0.67,0.72
+100615,1,Cash loans,M,1,1,2,199798.27,415928.5,32532.55,-13837,-1118,Working,Lower secondary,Widow,With parents,IT staff,4,0.77,0.68,0.47
+100616,0,Cash loans,F,1,0,0,257654.01,366107.75,13987.33,-12963,-659,Unemployed,Higher education,Married / civil union,With parents,Private service staff,1,0.39,0.6,0.78
+100617,0,Revolving loans,M,1,1,2,147473.12,579542.66,25162.43,-6515,-1484,Commercial associate,Higher education,Single / not married,Rented apartment,Medicine staff,4,0.65,0.89,0.43
+100618,1,Cash loans,M,1,0,4,274964.55,851816.87,46393.58,-6503,1820,Unemployed,Higher education,Separated,With parents,High skill tech staff,7,0.63,0.77,0.59
+100619,1,Cash loans,F,0,1,3,157918.16,553098.03,40465.28,-7701,858,State servant,Secondary / special,Married / civil union,Rented apartment,Drivers,5,0.19,0.36,0.43
+100620,1,Revolving loans,M,1,1,4,142666.36,132917.25,7553.89,-14230,-2908,Pensioner,Secondary / special,Married / civil union,Municipal apartment,IT staff,7,0.36,0.27,0.4
+100621,1,Cash loans,M,0,1,1,133065.91,453853.96,28336.31,-13365,-3072,Commercial associate,Academic degree,Widow,House / apartment,Sales staff,4,0.4,0.44,0.68
+100622,1,Revolving loans,M,0,1,0,300783.99,685105.07,42181.2,-13878,-4004,Unemployed,Academic degree,Separated,House / apartment,Sales staff,3,0.14,0.31,0.39
+100623,1,Cash loans,F,0,1,2,126363.93,265320.56,17930.32,-8988,-303,State servant,Lower secondary,Married / civil union,Municipal apartment,Low skill laborers,4,0.96,0.6,0.83
+100624,0,Revolving loans,M,1,1,0,50000,185353.88,8052.37,-13691,-1131,State servant,Secondary / special,Separated,House / apartment,High skill tech staff,2,0.54,0.26,0.39
+100625,0,Revolving loans,F,1,1,1,90067.79,311060.41,18186.92,-12177,-1215,Working,Academic degree,Widow,Municipal apartment,Security staff,2,0.32,0.53,0.48
+100626,1,Cash loans,F,0,1,0,178777.04,509223.99,18789.6,-10862,-3486,Unemployed,Lower secondary,Single / not married,House / apartment,Secretaries,1,0.38,0.22,0.27
+100627,0,Revolving loans,F,0,0,0,121600.02,415511.7,13407.97,-13128,-3965,Working,Academic degree,Single / not married,With parents,IT staff,3,0.35,0.56,0.78
+100628,1,Cash loans,F,0,0,2,88633.9,184729.35,6373.99,-12876,-1429,Unemployed,Higher education,Widow,House / apartment,Secretaries,3,0.66,0.86,0.88
+100629,0,Cash loans,F,1,0,3,155631.15,116424.65,5996.96,-11143,-4963,State servant,Lower secondary,Separated,Municipal apartment,HR staff,5,0.64,0.41,0.24
+100630,0,Revolving loans,F,1,0,1,167187.32,572978.26,19713.05,-14432,-1116,Unemployed,Higher education,Widow,House / apartment,Cooking staff,3,0.94,0.38,0.58
+100631,1,Cash loans,F,1,1,2,224199.59,696960.67,36513.93,-14977,879,State servant,Lower secondary,Separated,House / apartment,High skill tech staff,4,0.43,0.44,0.11
+100632,1,Revolving loans,F,1,1,2,140158.83,148301.38,8635.37,-6159,-570,Working,Higher education,Single / not married,House / apartment,Cooking staff,4,0.09,0.59,0.65
+100633,0,Cash loans,F,1,1,0,114806.58,385922.81,29564.92,-7362,-4995,State servant,Lower secondary,Married / civil union,Municipal apartment,Security staff,3,0.28,0.68,0.56
+100634,1,Revolving loans,F,0,0,1,187032.17,639956.26,22395.05,-13257,1918,Pensioner,Academic degree,Married / civil union,Rented apartment,Accountants,3,0.78,0.66,0.79
+100635,0,Revolving loans,F,0,0,1,120238.84,100000,4106.91,-11518,51,State servant,Academic degree,Widow,Municipal apartment,Security staff,4,0.77,0.76,0.42
+100636,0,Cash loans,F,0,1,1,241807.58,709483.13,29856.32,-13847,688,Working,Academic degree,Separated,With parents,Low skill laborers,4,0.69,0.4,0.81
+100637,1,Cash loans,M,0,0,0,215652.43,638028.76,23908.58,-9626,2012,Commercial associate,Academic degree,Widow,With parents,HR staff,1,0.31,0.96,0.7
+100638,0,Cash loans,M,0,1,3,306465.7,1148116.84,50608.41,-11480,2565,Unemployed,Lower secondary,Single / not married,House / apartment,Security staff,5,0.72,0.59,0.89
+100639,1,Cash loans,F,0,0,2,134768.44,348434.64,10472.16,-13289,-369,State servant,Academic degree,Single / not married,Rented apartment,High skill tech staff,3,0.31,0.51,0.33
+100640,0,Revolving loans,M,1,0,3,153569.1,120618.64,7168.01,-11127,-1201,State servant,Lower secondary,Separated,Rented apartment,Secretaries,4,0.55,0.26,0.45
+100641,1,Cash loans,M,1,1,4,219250.12,238637.25,16155.66,-8662,-2923,State servant,Higher education,Married / civil union,With parents,IT staff,5,0.66,0.79,0.73
+100642,1,Cash loans,F,0,1,1,197684.77,107868.71,3430.85,-9405,-2731,Commercial associate,Academic degree,Separated,Municipal apartment,Low skill laborers,2,0.62,0.22,0.45
+100643,0,Revolving loans,M,1,1,3,113766.94,100000,3114.59,-8652,-4266,Pensioner,Higher education,Married / civil union,With parents,Accountants,6,0.7,0.49,0.64
+100644,0,Revolving loans,F,1,0,3,141356.8,100000,3279.39,-12649,-1981,Unemployed,Higher education,Single / not married,Municipal apartment,High skill tech staff,5,0.43,0.35,0.33
+100645,0,Cash loans,F,0,1,0,109022.41,227601.05,8301.47,-8767,-1446,Pensioner,Higher education,Separated,House / apartment,Medicine staff,1,0.79,0.66,0.9
+100646,1,Revolving loans,F,1,0,1,95620.19,276289.18,11931.13,-9293,1594,Unemployed,Lower secondary,Separated,Municipal apartment,HR staff,2,0.65,0.64,0.92
+100647,1,Cash loans,M,1,1,2,227930.03,328212.52,15275.42,-13430,833,Unemployed,Secondary / special,Married / civil union,Rented apartment,Secretaries,5,0.49,0.39,0.65
+100648,0,Cash loans,F,0,1,3,104661.0,388263.81,17595.14,-7434,-3482,Working,Lower secondary,Married / civil union,Rented apartment,Medicine staff,6,0.17,0.37,0.06
+100649,0,Revolving loans,F,0,0,2,191757.63,201526.94,10232.09,-7906,-2406,Unemployed,Lower secondary,Single / not married,Municipal apartment,Private service staff,3,0.39,0.11,0.27
+100650,1,Revolving loans,M,0,1,1,266938.27,376160.22,27161.43,-14160,-1614,Pensioner,Academic degree,Married / civil union,House / apartment,High skill tech staff,4,0.53,0.21,0.37
+100651,1,Cash loans,M,0,0,1,50000,100000,7603.87,-13927,-3541,Pensioner,Academic degree,Separated,Rented apartment,IT staff,2,0.42,0.41,0.76
+100652,0,Revolving loans,M,0,0,4,125828.76,404473.92,15693.8,-6438,-3473,Working,Lower secondary,Separated,Municipal apartment,IT staff,7,0.8,0.41,0.85
+100653,1,Revolving loans,F,1,1,4,254096.1,822383.42,33943.95,-9713,-4287,Commercial associate,Academic degree,Single / not married,Rented apartment,Cleaning staff,6,0.27,0.33,0.43
+100654,1,Revolving loans,F,0,1,1,68626.44,100000,4049.1,-9550,-3749,Pensioner,Lower secondary,Single / not married,Rented apartment,Medicine staff,2,0.54,0.2,0.43
+100655,1,Cash loans,F,1,0,0,50000,136200.55,9003.26,-10008,-997,State servant,Academic degree,Separated,Municipal apartment,Accountants,3,0.37,0.88,0.84
+100656,1,Revolving loans,F,0,0,0,234684.17,344744.24,18549.72,-11923,-342,Commercial associate,Secondary / special,Single / not married,House / apartment,Security staff,1,0.5,0.87,0.33
+100657,1,Cash loans,F,1,1,0,252621.63,189193.96,13876.22,-14128,-665,Pensioner,Secondary / special,Single / not married,With parents,Cleaning staff,1,0.54,0.66,0.66
+100658,1,Cash loans,F,0,0,4,134666.73,385459.98,12109.58,-11556,2895,Working,Higher education,Married / civil union,With parents,Accountants,7,0.52,0.45,0.26
+100659,1,Cash loans,F,1,1,3,140870.77,242561.02,17070.89,-10461,-388,Working,Lower secondary,Separated,House / apartment,Sales staff,5,0.43,0.4,0.27
+100660,1,Revolving loans,M,0,0,3,162243.24,281575.03,18288.74,-13704,-177,Commercial associate,Academic degree,Single / not married,Municipal apartment,Security staff,5,0.76,0.51,0.37
+100661,0,Cash loans,M,1,1,2,203555.8,308373.42,17338.61,-11495,-2144,State servant,Academic degree,Separated,With parents,Low skill laborers,4,0.44,0.43,0.87
+100662,1,Revolving loans,M,0,0,4,178729.28,638020.09,27555.91,-14615,1854,Working,Academic degree,Married / civil union,Municipal apartment,High skill tech staff,5,0.23,0.61,0.58
+100663,0,Cash loans,M,0,1,4,188570.12,283746.91,18581.95,-12763,-1129,Unemployed,Academic degree,Separated,Municipal apartment,Drivers,5,0.59,0.7,0.78
+100664,0,Cash loans,M,0,0,3,98037.33,164784.72,10525.96,-13722,-451,Pensioner,Lower secondary,Widow,Rented apartment,Managers,4,0.63,0.66,0.62
+100665,0,Revolving loans,M,0,0,3,158737.98,246742.7,15585.33,-12810,678,State servant,Lower secondary,Married / civil union,With parents,Managers,6,0.65,0.84,0.76
+100666,0,Cash loans,F,1,1,2,182268.87,479960.76,21126.21,-12403,-1327,Working,Academic degree,Widow,With parents,HR staff,5,0.73,0.72,0.43
+100667,0,Cash loans,M,1,0,2,60055.4,100000,7493.23,-6928,257,Pensioner,Higher education,Separated,House / apartment,High skill tech staff,3,0.39,0.83,0.91
+100668,0,Revolving loans,M,1,0,3,75628.33,253365.09,16750.12,-10242,-524,Unemployed,Secondary / special,Single / not married,With parents,High skill tech staff,6,0.76,0.43,0.95
+100669,0,Cash loans,M,1,1,4,180159.79,523963.05,25812.45,-14745,-2914,State servant,Secondary / special,Married / civil union,Municipal apartment,Secretaries,7,0.57,0.67,0.55
+100670,1,Cash loans,F,0,0,1,62206.58,210589.63,9385.43,-6590,2639,Working,Lower secondary,Separated,With parents,Managers,4,0.44,0.48,0.57
+100671,1,Revolving loans,F,1,0,1,197237.15,571563.13,24596.45,-12266,-3425,State servant,Lower secondary,Single / not married,Municipal apartment,Cleaning staff,4,0.82,0.86,0.68
+100672,0,Cash loans,M,0,1,1,244384.4,722636.8,28242.79,-12998,-3287,State servant,Higher education,Single / not married,Rented apartment,Accountants,4,0.78,0.76,0.84
+100673,0,Cash loans,F,0,0,4,304886.58,972623.94,39798.13,-8484,-2413,Pensioner,Secondary / special,Single / not married,House / apartment,Sales staff,6,0.5,0.67,0.79
+100674,0,Cash loans,M,0,1,0,69926.25,165761.19,12025.9,-8572,-1019,Unemployed,Secondary / special,Widow,Rented apartment,Security staff,1,0.77,0.56,0.74
+100675,0,Cash loans,F,0,0,3,204555.84,132763.05,6560.27,-14232,-922,State servant,Higher education,Widow,With parents,Managers,6,0.47,0.55,0.26
+100676,0,Revolving loans,M,0,0,4,60559.32,100000,4528.19,-7047,-2982,Working,Secondary / special,Married / civil union,With parents,Cooking staff,6,0.87,0.82,0.64
+100677,0,Cash loans,M,0,1,1,255943.42,278548.41,8386.13,-6088,-3389,Commercial associate,Academic degree,Single / not married,Municipal apartment,HR staff,4,0.62,0.32,0.77
+100678,0,Cash loans,F,1,0,4,164017.77,222117.73,9186.11,-9388,-891,Pensioner,Academic degree,Separated,House / apartment,Sales staff,6,0.73,0.49,0.48
+100679,0,Revolving loans,F,0,0,0,188126.49,614958.55,24632.94,-9696,-3752,State servant,Secondary / special,Separated,With parents,HR staff,3,0.43,0.21,0.05
+100680,0,Cash loans,M,1,1,0,246070.56,232788.85,14045.3,-12713,-1590,Pensioner,Lower secondary,Single / not married,Rented apartment,High skill tech staff,2,0.78,0.64,0.7
+100681,0,Revolving loans,F,1,1,4,139305.02,379970.71,25913.93,-10880,-255,Commercial associate,Lower secondary,Married / civil union,With parents,HR staff,5,0.78,0.68,0.49
+100682,1,Cash loans,M,0,0,3,224050.13,507303.09,22886.19,-12733,-2633,Commercial associate,Higher education,Widow,House / apartment,Cooking staff,6,0.46,0.54,0.19
+100683,0,Revolving loans,M,1,1,2,50000,100000,5721.82,-10432,-2931,Pensioner,Secondary / special,Single / not married,Municipal apartment,HR staff,5,0.32,0.41,0.44
+100684,1,Cash loans,F,0,0,3,100819.93,100000,3003.16,-6752,899,State servant,Academic degree,Single / not married,Municipal apartment,Medicine staff,6,0.32,0.35,0.35
+100685,0,Cash loans,M,0,0,2,246950.53,299836.77,14577.48,-8013,-2539,Unemployed,Higher education,Single / not married,Rented apartment,Cleaning staff,4,0.46,0.36,0.58
+100686,1,Cash loans,F,0,0,2,169272.0,237855.81,10790.37,-12370,-2637,Working,Secondary / special,Widow,With parents,HR staff,4,0.48,0.64,0.15
+100687,0,Revolving loans,F,1,0,1,97734.2,102590.15,7039.74,-14782,992,Commercial associate,Secondary / special,Married / civil union,Rented apartment,Sales staff,4,0.31,0.35,0.45
+100688,1,Revolving loans,F,0,1,2,91972.02,250951.38,12086.73,-7519,-1280,Unemployed,Higher education,Married / civil union,Rented apartment,Drivers,4,0.42,0.3,0.46
+100689,1,Revolving loans,M,1,0,1,101518.77,100000,4088.87,-7362,-4438,Unemployed,Higher education,Married / civil union,Municipal apartment,IT staff,2,0.62,0.36,0.43
+100690,1,Revolving loans,M,0,1,4,139381.85,229074.29,14441.92,-11364,-1047,Pensioner,Lower secondary,Widow,Municipal apartment,Security staff,5,0.62,0.46,0.38
+100691,1,Revolving loans,F,1,1,4,97817.5,245806.04,17087.16,-6605,-1470,State servant,Academic degree,Separated,Municipal apartment,Managers,7,0.53,0.57,0.08
+100692,1,Cash loans,F,0,1,4,230588.39,822957.5,58589.85,-14032,816,Working,Lower secondary,Separated,Rented apartment,High skill tech staff,6,0.44,0.24,0.49
+100693,0,Cash loans,M,1,1,4,180912.7,220964.5,12112.61,-8619,-1796,State servant,Secondary / special,Separated,Rented apartment,Managers,5,0.13,0.58,0.28
+100694,0,Cash loans,M,0,0,2,50000,100000,5114.79,-9403,1466,State servant,Academic degree,Separated,With parents,Medicine staff,3,0.42,0.09,0.21
+100695,0,Cash loans,M,1,1,0,119389.6,237952.03,13967.4,-14701,-618,State servant,Higher education,Single / not married,Rented apartment,Drivers,3,0.33,0.25,0.55
+100696,1,Revolving loans,M,1,0,3,192376.51,136825.43,4153.43,-11470,2990,Pensioner,Higher education,Widow,Municipal apartment,Managers,4,0.33,0.32,0.42
+100697,1,Revolving loans,M,1,0,1,203933.06,403050.19,27522.47,-12196,-2190,Working,Higher education,Married / civil union,With parents,Cleaning staff,3,0.24,0.85,0.37
+100698,1,Cash loans,M,0,1,4,80704.25,100000,3713.55,-12876,-3900,State servant,Academic degree,Separated,Rented apartment,HR staff,5,0.25,0.5,0.03
+100699,0,Cash loans,M,1,0,1,233667.45,796584.83,54443.36,-14808,-1284,State servant,Secondary / special,Widow,With parents,Private service staff,3,0.19,0.25,0.07
+100700,0,Revolving loans,M,0,0,1,220902.2,614472.26,29468.38,-14388,-3083,Working,Secondary / special,Separated,Municipal apartment,Cleaning staff,3,0.82,0.55,0.59
